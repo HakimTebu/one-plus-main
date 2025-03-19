@@ -1,4 +1,7 @@
 import React from "react";
+import Header from "../components/header/Header";
+import Guide1 from "../components/body/Guide1";
+import Guide2 from "../components/body/Guide2";
 
 const Home = () => {
   return (
@@ -8,9 +11,14 @@ const Home = () => {
           <div class="v-application__wrap">
             <main
               class="v-main"
-              style="--v-layout-left: 0px; --v-layout-right: 0px; --v-layout-top: 0px; --v-layout-bottom: 0px;"
-                      >
-                          
+              style={{
+                "--v-layout-left": "0px",
+                "--v-layout-right": "0px",
+                "--v-layout-top": "0px",
+                "--v-layout-bottom": "0px",
+              }}
+            >
+              <Header />
             </main>
           </div>
         </div>

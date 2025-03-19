@@ -7,7 +7,7 @@ const Guide2 = () => {
       data-uw-feature-ignore="true"
       data-uw-rm-ignore="true"
       title="Accessibility Menu"
-      style="background-color: transparent !important; overflow: initial !important;"
+      style={{ backgroundColor: "transparent", overflow: "initial" }}
     >
       <div class="userway_buttons_wrapper">
         <div
@@ -19,7 +19,7 @@ const Guide2 = () => {
           aria-haspopup="dialog"
           data-uw-s19-ignore=""
           title="Translations Menu"
-          style="background: rgb(17, 165, 111) !important;"
+          style={{ background: "rgb(17, 165, 111)" }}
         >
           <span class="uiiw"></span>
           <div class="ups">
@@ -43,7 +43,7 @@ const Guide2 = () => {
           tabindex="0"
           aria-haspopup="dialog"
           title="Accessibility Menu"
-          style="background: rgb(17, 165, 111) !important;"
+          style={{ background: "rgb(17, 165, 111) !important" }}
         >
           <span class="uiiw">
             <img
@@ -74,7 +74,12 @@ const Guide2 = () => {
         data-uw-ignore-translate="true"
         name="userway"
         title="UserWay Accessibility Menu"
-        style="max-width: 100vw !important; visibility: visible !important; opacity: 1 !important; color-scheme: light !important;"
+        style={{
+          maxWidth: "100vw",
+          visibility: "visible",
+          opacity: 1,
+          colorScheme: "light",
+        }}
       ></iframe>
     </div>
   );
