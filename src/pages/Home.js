@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/header/Header";
 import Guide1 from "../components/body/Guide1";
 import Guide2 from "../components/body/Guide2";
+import Sections from "../components/Sections";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
               }}
             >
               <Header />
+              <Sections />
+              <Footer />
             </main>
           </div>
         </div>
