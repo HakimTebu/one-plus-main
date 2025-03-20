@@ -1,4 +1,6 @@
 import React from 'react'
+import "@mdi/font/css/materialdesignicons.min.css";
+
 
 const ThePass = () => {
   return (
@@ -73,7 +75,7 @@ const ThePass = () => {
               >
                 <i
                   data-v-99e549d0=""
-                  class="uaepass-pencil-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme"
+                  class="mdi mdi-pencil-outline v-icon notranslate v-theme--uaepassDefaultTheme"
                   aria-hidden="true"
                   style={{
                     fontSize: "40px",
@@ -118,7 +120,7 @@ const ThePass = () => {
               >
                 <i
                   data-v-99e549d0=""
-                  class="uaepass-doc-badge mdi v-icon notranslate v-theme--uaepassDefaultTheme"
+                  class="mdi mdi-file-document-outline v-icon notranslate v-theme--uaepassDefaultTheme"
                   aria-hidden="true"
                   style={{
                     fontSize: "40px",
@@ -147,7 +149,7 @@ const ThePass = () => {
                     data-v-99e549d0=""
                     class="mdi-arrow-right-thin mdi v-icon notranslate v-theme--uaepassDefaultTheme"
                     aria-hidden="true"
-                    style={{fontSize: "20px", height: "20px", width: "20px"}}
+                    style={{ fontSize: "20px", height: "20px", width: "20px" }}
                   ></i>
                 </a>
               </div>

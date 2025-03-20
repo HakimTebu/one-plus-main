@@ -96,7 +96,7 @@ const NavBar = () => {
               <span class="v-btn__content" data-no-activator="">
                 <i
                   data-v-0cb5a6fb=""
-                  class="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
+                  class="mdi mdi-wheelchair-accessibility v-icon notranslate v-theme--uaepassDefaultTheme"
                   aria-hidden="true"
                   alt="weelchair"
                   style={{ fontSize: "30px", height: "30px", width: "30px" }}
@@ -270,9 +270,7 @@ const NavBar = () => {
                   alt="weelchair"
                   style={{ fontSize: "30px", height: "30px", width: "30px" }}
                 ></i>
-                
               </span>
-              
             </button>
             <i
               data-v-34310377=""

@@ -51520,7 +51520,7 @@ html body .v-locale--is-rtl *,html body .v-locale--is-rtl [class*=" text-"],html
 
 @media screen and (max-width: 599px) {
     .full__width-container {
-        padding:0 16px
+        padding:0 25px
     }
 }
 
