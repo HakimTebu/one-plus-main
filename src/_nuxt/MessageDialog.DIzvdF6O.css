@@ -1,0 +1,23 @@
+.message[data-v-b13af9f3] {
+    width: 386px
+}
+
+.message__title[data-v-b13af9f3] {
+    color: var(--surface-on-surface, #000);
+    color: var(--surface-on-surface, color(display-p3 0 0 0));
+    font-size: 24px;
+    letter-spacing: -.24px;
+    line-height: 32px
+}
+
+.message__desc[data-v-b13af9f3] {
+    color: var(--surface-on-surface-variant, #444650);
+    color: var(--surface-on-surface-variant, color(display-p3 .2667 .2745 .3098));
+    letter-spacing: .5px;
+    line-height: 24px
+}
+
+.message__action[data-v-b13af9f3] {
+    min-height: 48px;
+    min-width: 120px
+}

@@ -1,4 +1,6 @@
 import React from 'react'
+import { GrWheelchair } from "react-icons/gr";
+
 
 const NavBar = () => {
   return (
@@ -18,7 +20,7 @@ const NavBar = () => {
               aria-label="Home"
               tabindex="0"
               class="link link--active cursor-pointer"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               Home
             </a>
@@ -27,7 +29,7 @@ const NavBar = () => {
               aria-label="See Kiosk Locations"
               tabindex="0"
               class="link ms-md-8 ms-4 cursor-pointer"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               Kiosk Locations
             </a>
@@ -36,7 +38,7 @@ const NavBar = () => {
               aria-label="See our partners"
               tabindex="0"
               class="link ms-md-8 ms-4 cursor-pointer"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               Partners
             </a>
@@ -45,7 +47,7 @@ const NavBar = () => {
               aria-label="Developers"
               tabindex="0"
               class="link ms-md-8 ms-4 cursor-pointer"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               Developers
             </a>
@@ -84,7 +86,7 @@ const NavBar = () => {
               class="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme bg-white v-btn--density-compact v-btn--variant-elevated mx-1 uaepass-accessibility mx-1 uaepass-accessibility"
               id="uaepass-accessibility-trigger"
               data-testid="accessibility-btn"
-              style={{width: "30px", height: "30px"}}
+              style={{ width: "30px", height: "30px" }}
               aria-label="button"
               data-uw-rm-empty-ctrl=""
             >
@@ -97,7 +99,7 @@ const NavBar = () => {
                   class="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
                   aria-hidden="true"
                   alt="weelchair"
-                  style={{fontSize: "30px", height: "30px", width: "30px"}}
+                  style={{ fontSize: "30px", height: "30px", width: "30px" }}
                 ></i>
               </span>
             </button>
@@ -146,17 +148,18 @@ const NavBar = () => {
               class="v-responsive v-img white-logo"
               aria-label="UAE Pass logo"
               role="img"
-              style={{height: "36px", width: "126px"}}
+              style={{ height: "36px", width: "126px" }}
             >
               <div
                 class="v-responsive__sizer"
-                style={{paddingBottom: "29.4118%"}}
+                style={{ paddingBottom: "29.4118%" }}
               ></div>
+              {/* LOGO HERE */}
               <img
                 class="v-img__img v-img__img--contain"
-                src="/images/full-logo.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742469423/full-logo_woueza.svg"
                 alt="UAE Pass logo"
-                style={ {}}
+                style={{}}
                 data-uw-rm-alt-original="UAE Pass logo"
                 role="img"
                 data-uw-rm-alt="ALT"
@@ -210,7 +213,7 @@ const NavBar = () => {
               aria-label="About Us"
               custom-title="About"
               tabindex="0"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               About
               <div data-v-34310377="" class="link__border mt-2"></div>
@@ -221,7 +224,7 @@ const NavBar = () => {
               aria-label="pages.ariafaq."
               custom-title="FAQs"
               tabindex="0"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               FAQs
               <div data-v-34310377="" class="link__border mt-2"></div>
@@ -232,7 +235,7 @@ const NavBar = () => {
               aria-label="Ask for support"
               custom-title="Support"
               tabindex="0"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               Support
               <div data-v-34310377="" class="link__border mt-2"></div>
@@ -245,7 +248,14 @@ const NavBar = () => {
               class="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme v-btn--density-compact v-btn--variant-elevated mx-1 uaepass-accessibility"
               id="uaepass-accessibility-trigger"
               data-test="accessibility-btn"
-              style={{backgroundColor: "rgb(64, 73, 67)", color: "rgb(255, 255, 255)", caretColor: "rgb(255, 255, 255)", width: "30px", height: "30px", display: "none"}}
+              style={{
+                backgroundColor: "rgb(64, 73, 67)",
+                color: "rgb(255, 255, 255)",
+                caretColor: "rgb(255, 255, 255)",
+                width: "30px",
+                height: "30px",
+                display: "none",
+              }}
               aria-label="button"
               data-uw-rm-empty-ctrl=""
             >
@@ -258,9 +268,11 @@ const NavBar = () => {
                   class="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
                   aria-hidden="true"
                   alt="weelchair"
-                  style={{fontSize: "30px", height: "30px", width: "30px"}}
+                  style={{ fontSize: "30px", height: "30px", width: "30px" }}
                 ></i>
+                
               </span>
+              
             </button>
             <i
               data-v-34310377=""
@@ -311,7 +323,7 @@ const NavBar = () => {
               class="v-responsive v-img v-img--booting white-logo"
               aria-label="UAE Pass logo"
               role="img"
-              style={{height: "36px", width: "126px"}}
+              style={{ height: "36px", width: "126px" }}
             >
               <div class="v-responsive__sizer"></div>
             </div>
@@ -363,7 +375,7 @@ const NavBar = () => {
               aria-label="About Us"
               custom-title="About"
               tabindex="0"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               About
               <div data-v-34310377="" class="link__border mt-2"></div>
@@ -374,7 +386,7 @@ const NavBar = () => {
               aria-label="pages.ariafaq."
               custom-title="FAQs"
               tabindex="0"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               FAQs
               <div data-v-34310377="" class="link__border mt-2"></div>
@@ -385,7 +397,7 @@ const NavBar = () => {
               aria-label="Ask for support"
               custom-title="Support"
               tabindex="0"
-              style={{display: "none"}}
+              style={{ display: "none" }}
             >
               Support
               <div data-v-34310377="" class="link__border mt-2"></div>
@@ -400,7 +412,14 @@ const NavBar = () => {
               data-test="accessibility-btn"
               aria-label="button"
               data-uw-rm-empty-ctrl=""
-              style={{backgroundColor: "rgb(64, 73, 67)", color: "rgb(255, 255, 255)", caretColor: "rgb(255, 255, 255)", width: "30px", height: "30px", display: "none"}}
+              style={{
+                backgroundColor: "rgb(64, 73, 67)",
+                color: "rgb(255, 255, 255)",
+                caretColor: "rgb(255, 255, 255)",
+                width: "30px",
+                height: "30px",
+                display: "none",
+              }}
             >
               <span class="v-btn__overlay"></span>
               <span class="v-btn__underlay"></span>
@@ -411,7 +430,7 @@ const NavBar = () => {
                   class="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
                   aria-hidden="true"
                   alt="weelchair"
-                  style={{fontSize: "30px", height: "30px", width: "30px"}}
+                  style={{ fontSize: "30px", height: "30px", width: "30px" }}
                 ></i>
               </span>
             </button>

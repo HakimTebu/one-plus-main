@@ -29,11 +29,11 @@ const SignUp = () => {
           >
             <div
               class="v-responsive__sizer"
-              style={{paddingBottom: "127.074%"}}
+              style={{ paddingBottom: "127.074%" }}
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="/images/download-step.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/download-step_nj6jdt.png"
               alt="step icon"
               style={{}}
               data-uw-rm-alt-original="step icon"
@@ -62,11 +62,11 @@ const SignUp = () => {
                 >
                   <div
                     class="v-responsive__sizer"
-                    style={{paddingBottom: "30.3754%"}}
+                    style={{ paddingBottom: "30.3754%" }}
                   ></div>
                   <img
                     class="v-img__img v-img__img--contain"
-                    src="/images/apple-store.png"
+                    src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/apple-store_rt6bt6.png"
                     alt="action step image"
                     style={{}}
                     data-uw-rm-alt-original="action step image"
@@ -90,11 +90,11 @@ const SignUp = () => {
                 >
                   <div
                     class="v-responsive__sizer"
-                    style={{paddingBottom: "30.4795%"}}
+                    style={{ paddingBottom: "30.4795%" }}
                   ></div>
                   <img
                     class="v-img__img v-img__img--contain"
-                    src="/images/google-play.png"
+                    src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/google-play_l84ox0.png"
                     alt="action step image"
                     style={{}}
                     data-uw-rm-alt-original="action step image"
@@ -118,11 +118,11 @@ const SignUp = () => {
           >
             <div
               class="v-responsive__sizer"
-              style={{paddingBottom: "126.522%"}}
+              style={{ paddingBottom: "126.522%" }}
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="/images/register-step.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/register-step_bqpedt.png"
               alt="step icon"
               style={{}}
               data-uw-rm-alt-original="step icon"
@@ -173,11 +173,11 @@ const SignUp = () => {
           >
             <div
               class="v-responsive__sizer"
-              style={{paddingBottom: "126.522%"}}
+              style={{ paddingBottom: "126.522%" }}
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="/images/verify-step.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473089/verify-step_gontr5.png"
               alt="step icon"
               style={{}}
               data-uw-rm-alt-original="step icon"

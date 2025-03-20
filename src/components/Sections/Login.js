@@ -50,7 +50,10 @@ const Login = () => {
                   data-v-5d0ad5db=""
                   class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
-                  style={{color: "rgb(255, 255, 255)", caretColor: "rgb(255, 255, 255)"}}
+                  style={{
+                    color: "rgb(255, 255, 255)",
+                    caretColor: "rgb(255, 255, 255)",
+                  }}
                 ></i>
                 <span data-v-5d0ad5db="" class="letter-spacing-0">
                   Explore Our Partners
@@ -72,7 +75,10 @@ const Login = () => {
                   data-v-5d0ad5db=""
                   class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
-                  style={{color: "rgb(17, 165, 111)", caretColor: "rgb(17, 165, 111)"}}
+                  style={{
+                    color: "rgb(17, 165, 111)",
+                    caretColor: "rgb(17, 165, 111)",
+                  }}
                 ></i>
                 <span data-v-5d0ad5db="" class="letter-spacing-0">
                   Watch Video
@@ -93,11 +99,11 @@ const Login = () => {
           >
             <div
               class="v-responsive__sizer"
-              style={{paddingBottom: "100%"}}
+              style={{ paddingBottom: "100%" }}
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="/images/secure-sign.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742469423/secure-sign_pw5s7c.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -172,6 +178,7 @@ const Login = () => {
               accept="application/pdf"
               aria-label="upload file"
               data-uw-rm-form="nfx"
+              style={{ display: "none" }}
             />
             <button
               data-v-5bdf237f=""
@@ -209,11 +216,11 @@ const Login = () => {
           >
             <div
               class="v-responsive__sizer"
-              style={{paddingBottom: "100%"}}
+              style={{ paddingBottom: "100%" }}
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="/images/digital-signatures.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742469422/digital-signatures_mdgybr.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -272,7 +279,10 @@ const Login = () => {
                   data-v-5d0ad5db=""
                   class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
-                                  style={{ color: "rgb(255, 255, 255)", caretColor: "rgb(255, 255, 255)"}}
+                  style={{
+                    color: "rgb(255, 255, 255)",
+                    caretColor: "rgb(255, 255, 255)",
+                  }}
                 ></i>
                 <span data-v-5d0ad5db="" class="letter-spacing-0">
                   Explore Services
@@ -294,7 +304,10 @@ const Login = () => {
                   data-v-5d0ad5db=""
                   class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
-                  style={{color: "rgb(17, 165, 111)", caretColor: "rgb(17, 165, 111)"}}
+                  style={{
+                    color: "rgb(17, 165, 111)",
+                    caretColor: "rgb(17, 165, 111)",
+                  }}
                 ></i>
                 <span data-v-5d0ad5db="" class="letter-spacing-0">
                   Watch Video
@@ -315,11 +328,11 @@ const Login = () => {
           >
             <div
               class="v-responsive__sizer"
-              style={{paddingBottom: "100%"}}
+              style={{ paddingBottom: "100%" }}
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="/images/document-sharing.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742469422/document-sharing_kkkwnl.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"

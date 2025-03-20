@@ -1,0 +1,16 @@
+.v-card-title[data-v-3ccbc4fb] {
+    font-size: 28px
+}
+
+.v-btn[data-v-3ccbc4fb] {
+    min-width: 120px;
+    width: -moz-fit-content !important;
+    width: fit-content !important
+}
+
+@media screen and (max-width:667px) {
+    .v-card[data-v-3ccbc4fb] {
+        align-self: center;
+        max-width: 80%
+    }
+}
