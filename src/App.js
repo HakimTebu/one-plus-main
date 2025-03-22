@@ -6,17 +6,15 @@ import About from "./pages/About";
 import Faqs from "./pages/Faqs";
 import Support from "./pages/Support";
 
-// Create a wrapper component to handle scrolling
 const ScrollToTop = () => {
-  const location = useLocation();
+  const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page
-  }, [location.pathname]); // Trigger effect when the pathname changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-  return null; // This component doesn't render anything
+  return null;
 };
-
 
 function App() {
   
