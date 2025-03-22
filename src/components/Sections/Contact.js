@@ -15,9 +15,7 @@ const Contact = () => {
             data-v-c8286ac5=""
             class="header__desc text-center mx-auto text-color-gray-50"
           >
-            Think we didn’t answer your questions correctly or maybe you have
-            other enquiries we didn’t cover correctly or maybe you have other
-            enquiries we didn’t cover?
+            Let’s Talk About Your Digital Identity & Finance Needs.
           </p>
         </div>
         <div data-v-9b4e19f4="" data-v-cc0dc5fb="" class="text-center mt-8">
@@ -27,7 +25,7 @@ const Contact = () => {
           >
             Call Us Now!
           </p>
-          <div data-v-9b4e19f4="" style={{direction: "ltr"}}>
+          <div data-v-9b4e19f4="" style={{ direction: "ltr" }}>
             <a
               data-v-9b4e19f4=""
               href="tel:600561111"

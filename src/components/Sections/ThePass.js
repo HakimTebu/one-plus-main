@@ -8,11 +8,12 @@ const ThePass = () => {
       <div data-v-0f365038="" class="full__width-container">
         <div data-v-0f365038="" class="py-sm-16 py-8">
           <h2 data-v-0f365038="" class="text-sm-h4 text-h5 font-weight-bold">
-            UAE PASS is your right choice
+            A New Standard for Digital Identity & Finance
           </h2>
           <p data-v-0f365038="" class="text-body-1 text-color-gray-50 mt-4">
-            The first national digital identity for citizens, residents, and
-            visitors in UAE.
+            OnePass empowers individuals and businesses with secure digital
+            identity verification, encrypted document storage, AI-driven credit
+            scoring, and financial management tools.
           </p>
           <div
             data-v-0f365038=""
@@ -35,19 +36,19 @@ const ThePass = () => {
                     fontSize: "40px",
                     height: "40px",
                     width: "40px",
-                    color: "rgb(170, 143, 0)",
-                    caretColor: "rgb(170, 143, 0)",
+                    color: "rgb(66 145 254)",
+                    caretColor: "rgb(47 34 255)",
                   }}
                 ></i>
                 <p
                   data-v-99e549d0=""
                   class="text-sm-h5 text-h6 font-weight-600 text-color-gray-70 mt-5"
                 >
-                  Secure Sign In
+                  Digital Identity
                 </p>
                 <p data-v-99e549d0="" class="tips__desc mt-3">
-                  Login and sign up to many websites and applications with one
-                  account
+                  Secure ID verification and QR sharing for individuals and
+                  SMEs.
                 </p>
                 <a
                   data-v-99e549d0=""
@@ -81,18 +82,19 @@ const ThePass = () => {
                     fontSize: "40px",
                     height: "40px",
                     width: "40px",
-                    color: "rgb(170, 143, 0)",
-                    caretColor: "rgb(170, 143, 0)",
+                    color: "rgb(66 145 254)",
+                    caretColor: "rgb(47 34 255)",
                   }}
                 ></i>
                 <p
                   data-v-99e549d0=""
                   class="text-sm-h5 text-h6 font-weight-600 text-color-gray-70 mt-5"
                 >
-                  Sign Documents Digitally
+                  Secure Document Vault
                 </p>
                 <p data-v-99e549d0="" class="tips__desc mt-3">
-                  Sign and verify documents digitally.
+                  Securely store, share, and set expirations for sensitive,
+                  compliant documents.
                 </p>
                 <a
                   data-v-99e549d0=""
@@ -126,18 +128,19 @@ const ThePass = () => {
                     fontSize: "40px",
                     height: "40px",
                     width: "40px",
-                    color: "rgb(170, 143, 0)",
-                    caretColor: "rgb(170, 143, 0)",
+                    color: "rgb(66 145 254)",
+                    caretColor: "rgb(47 34 255)",
                   }}
                 ></i>
                 <p
                   data-v-99e549d0=""
                   class="text-sm-h5 text-h6 font-weight-600 text-color-gray-70 mt-5"
                 >
-                  Documents Sharing
+                  Credit Scoring
                 </p>
                 <p data-v-99e549d0="" class="tips__desc mt-3">
-                  Request and share official documents with various partners
+                  AI-driven personal and business credit scores with real-time
+                  updates and regulatory compliance.
                 </p>
                 <a
                   data-v-99e549d0=""

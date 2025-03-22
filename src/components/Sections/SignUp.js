@@ -33,7 +33,7 @@ const SignUp = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/download-step_nj6jdt.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742612306/Signup_umtrl7.svg"
               alt="step icon"
               style={{}}
               data-uw-rm-alt-original="step icon"
@@ -41,10 +41,10 @@ const SignUp = () => {
             />
           </div>
           <h3 data-v-164d3229="" class="register__head mt-n4">
-            Download
+            Sign Up
           </h3>
           <p data-v-164d3229="" class="register__desc mt-3">
-            Download the official UAE PASS application through
+            Register and verify your identity quickly and securely.
           </p>
           <div data-v-164d3229="" class="d-flex mt-4">
             <span data-v-164d3229="">
@@ -122,7 +122,7 @@ const SignUp = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/register-step_bqpedt.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742612305/Store_sl05qr.svg"
               alt="step icon"
               style={{}}
               data-uw-rm-alt-original="step icon"
@@ -130,10 +130,11 @@ const SignUp = () => {
             />
           </div>
           <h3 data-v-164d3229="" class="register__head mt-n4">
-            Register
+            Store
           </h3>
           <p data-v-164d3229="" class="register__desc mt-3">
-            Register your account using your Emirates ID, GCC ID, or passport
+            Securely upload, store, and access your important documents anytime,
+            anywhere.
           </p>
           <div data-v-164d3229="" class="d-flex mt-4">
             <span data-v-164d3229="">
@@ -160,6 +161,7 @@ const SignUp = () => {
             </span>
           </div>
         </div>
+        {/* START */}
         <div
           data-v-164d3229=""
           data-v-19c9428e=""
@@ -177,7 +179,7 @@ const SignUp = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473089/verify-step_gontr5.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742612305/Score_xgfucw.svg"
               alt="step icon"
               style={{}}
               data-uw-rm-alt-original="step icon"
@@ -185,11 +187,11 @@ const SignUp = () => {
             />
           </div>
           <h3 data-v-164d3229="" class="register__head mt-n4">
-            Verify
+            Score
           </h3>
           <p data-v-164d3229="" class="register__desc mt-3">
-            Verify your account through Face Verification OR visiting a Nearest
-            Kiosk
+            Receive an AI-powered credit score with real-time updates and
+            insights.
           </p>
           <div data-v-164d3229="" class="d-flex mt-4">
             <span data-v-164d3229="">
@@ -214,6 +216,61 @@ const SignUp = () => {
             </span>
           </div>
         </div>
+        {/* SEPARATE */}
+        <div
+          data-v-164d3229=""
+          data-v-19c9428e=""
+          class="d-flex flex-column text-center align-center register__step mt-sm-0 mt-10"
+        >
+          <div
+            data-v-164d3229=""
+            class="v-responsive v-img register__banner-img"
+            aria-label="step icon"
+            role="img"
+          >
+            <div
+              class="v-responsive__sizer"
+              style={{ paddingBottom: "126.522%" }}
+            ></div>
+            <img
+              class="v-img__img v-img__img--contain"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742612304/Manage_p4dlij.svg"
+              alt="step icon"
+              style={{}}
+              data-uw-rm-alt-original="step icon"
+              data-uw-rm-alt="ALT"
+            />
+          </div>
+          <h3 data-v-164d3229="" class="register__head mt-n4">
+            Manage
+          </h3>
+          <p data-v-164d3229="" class="register__desc mt-3">
+            Easily track loans and budgets with smart financial tools.
+          </p>
+          <div data-v-164d3229="" class="d-flex mt-4">
+            <span data-v-164d3229="">
+              <button
+                data-v-164d3229=""
+                type="button"
+                class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text cursor-pointer"
+              >
+                <span class="v-btn__overlay"></span>
+                <span class="v-btn__underlay"></span>
+                <span class="v-btn__prepend">
+                  <i
+                    data-v-164d3229=""
+                    class="mdi-map-marker-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-success"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+                <span class="v-btn__content" data-no-activator="">
+                  Nearest Kiosk
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        {/* END */}
       </div>
     </div>
   );

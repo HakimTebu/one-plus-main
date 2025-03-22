@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 
 import Sections from "../components/Sections";
 import Footer from "../components/Footer";
+import Guide1 from "../components/body/Guide1";
 
 const Home = () => {
   return (

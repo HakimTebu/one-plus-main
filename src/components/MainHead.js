@@ -9,7 +9,7 @@ const MainHead = () => {
     >
       <div data-v-f1abacc5="" class="banner__content d-flex flex-column">
         <h1 data-v-f1abacc5="" class="text-sm-h3 text-h4 font-weight-bold">
-          UAE PASS
+          OnePass
         </h1>
         <h5
           data-v-f1abacc5=""
@@ -18,19 +18,15 @@ const MainHead = () => {
           role="heading"
           aria-level="2"
         >
-          The first national digital identity for citizens residents and
-          visitors in UAE
+          Your Digital Identity & Finance Hub – Secure, Trusted, and Regulated.
         </h5>
         <p
           data-v-f1abacc5=""
           class="text-sm-body-1 text-body-2 mt-lg-6 mt-2 mb-lg-8 mb-sm-6 mb-4"
         >
-          UAE PASS is the first secure national digital identity for citizens,
-          residents and visitors in UAE, enabling them to access many online
-          services across various sectors, in addition to providing features
-          such as signing and verifying documents digitally, requesting digital
-          versions of official documents, and using the same in applying for
-          services from our partners.
+          OnePass is your all-in-one platform for secure digital identity
+          verification, encrypted document storage, AI-driven credit scoring,
+          and financial management.
         </p>
         <div
           data-v-a88e803d=""
@@ -40,19 +36,22 @@ const MainHead = () => {
           <button
             data-v-a88e803d=""
             type="button"
-            class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2"
+            class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 button-color-change-white"
             data-test="sign-button"
           >
             <span class="v-btn__overlay"></span>
             <span class="v-btn__underlay"></span>
 
             <span class="v-btn__content" data-no-activator="">
-              <i
+              {/* <i
                 class="uaepass-pencil-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
                 aria-hidden="true"
-              ></i>
-              <span class="font-weight-600 letter-spacing-0">
-                Sign Document
+              ></i> */}
+              <span
+                class="font-weight-600 letter-spacing-0 black-text-change"
+                style={{ color: "black!important" }}
+              >
+                Get Started
               </span>
             </span>
           </button>
@@ -69,18 +68,22 @@ const MainHead = () => {
           <button
             data-v-5bdf237f=""
             type="button"
-            class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 verify__btn"
+            class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 verify__btn button-color-change-white"
           >
             <span class="v-btn__overlay"></span>
             <span class="v-btn__underlay"></span>
 
             <span class="v-btn__content" data-no-activator="">
-              <i
+              {/* <i
                 data-v-5bdf237f=""
                 class="mdi-check-decagram-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
                 aria-hidden="true"
-              ></i>
-              <span data-v-5bdf237f="" class="font-weight-600 letter-spacing-0">
+              ></i> */}
+              <span
+                data-v-5bdf237f=""
+                class="font-weight-600 letter-spacing-0 black-text-change"
+                // style={{ color: "black !important" }}
+              >
                 Verify Document
               </span>
             </span>
@@ -102,7 +105,10 @@ const MainHead = () => {
                 class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
                 aria-hidden="true"
               ></i>
-              <span data-v-a88e803d="" class="font-weight-600 letter-spacing-0">
+              <span
+                data-v-a88e803d=""
+                class="font-weight-600 letter-spacing-0 "
+              >
                 Watch Video
               </span>
             </span>
@@ -197,7 +203,7 @@ const MainHead = () => {
           ></div>
           <img
             class="v-img__img v-img__img--contain"
-            src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742469423/u-pass-mobile_vwke3o.png"
+            src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742610171/iphone-3_k328b2.png"
             alt="mobile uaepass image"
             data-uw-rm-alt-original="mobile uaepass image"
             data-uw-rm-alt="ALT"
