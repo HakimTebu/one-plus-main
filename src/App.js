@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Faqs from "./pages/Faqs";
+import Support from "./pages/Support";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
     </Router>
   );

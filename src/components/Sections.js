@@ -8,7 +8,7 @@ const Sections = () => {
   return (
     <div
       data-v-1f289850
-      class="v-sheet v-theme--uaepassDefaultTheme"
+      class="v-sheet v-theme--uaepassDefaultTheme patch-bg-color"
       aria-haspopup="dialog"
       aria-expanded="false"
     >

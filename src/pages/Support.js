@@ -1,10 +1,11 @@
 import React from "react";
-import Footer from "../components/Footer";
 import AboutNav from "../components/about/AboutNav";
 import AboutHeader from "../components/about/AboutHeader";
+import Footer from "../components/Footer";
 import FaqsHeaderMain from "../components/Faqs/FaqsHeaderMain";
+import SupportHeaderMain from "../components/support/SupportHeaderMain";
 
-const Faqs = () => {
+const Support = () => {
   return (
     <body data-new-gr-c-s-check-loaded="14.1226.0" data-gr-ext-installed>
       <div id="__nuxt" data-v-app>
@@ -16,8 +17,8 @@ const Faqs = () => {
             <div class="v-application__wrap">
               <AboutNav />
               <AboutHeader />
-              <FaqsHeaderMain />
-             
+              <SupportHeaderMain />
+
               <Footer />
             </div>
           </div>
@@ -27,4 +28,4 @@ const Faqs = () => {
   );
 };
 
-export default Faqs;
+export default Support;

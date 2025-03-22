@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Links } from "react-router-dom";
 
 const AboutNav = () => {
   return (
@@ -49,22 +50,24 @@ const AboutNav = () => {
             >
               Developers
             </a>
-            <a
+            <Link
+              to="/about"
               data-v-0cb5a6fb=""
               aria-label="About Us"
               tabindex="0"
               class="link link--active cursor-pointer"
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/faqs"
               data-v-0cb5a6fb=""
               aria-label="pages.ariafaq."
               tabindex="0"
               class="link ms-9 cursor-pointer"
             >
               FAQs
-            </a>
+            </Link>
             <a
               data-v-0cb5a6fb=""
               aria-label="Ask for support"
@@ -107,6 +110,7 @@ const AboutNav = () => {
                 ></i>
               </span>
             </button>
+
             <button
               data-v-0cb5a6fb=""
               type="button"
@@ -174,81 +178,41 @@ const AboutNav = () => {
               />
             </div>
           </a>
-          <div data-v-34310377="" class="d-sm-flex d-none normal">
-            <a
+          {/* MAKESHIFT */}
+          <div className="makeshift">
+            <Link
+              to="/about"
               data-v-34310377=""
-              class="link cursor-pointer"
+              class="makeshift-text-dark cursor-pointer"
               aria-label="Home"
               custom-title="Home"
               tabindex="0"
             >
-              Home
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
-            <a
+              About
+            </Link>
+            <Link
+              to="/support"
               data-v-34310377=""
-              class="link ms-md-8 ms-4 cursor-pointer"
-              aria-label="See Kiosk Locations"
-              custom-title="Kiosk Locations"
-              tabindex="0"
-            >
-              Kiosk Locations
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              class="link ms-md-8 ms-4 cursor-pointer"
+              class="makeshift-text-dark cursor-pointer makeshift-text-dark"
               aria-label="See our partners"
               custom-title="Partners"
               tabindex="0"
             >
-              Partners
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              class="link ms-md-8 ms-4 cursor-pointer"
-              aria-label="Developers"
-              custom-title="Developers"
-              tabindex="0"
-            >
-              Developers
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              class="link link--active cursor-pointer"
-              aria-label="About Us"
-              custom-title="About"
-              tabindex="0"
-              style={{ display: "none" }}
-            >
-              About
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              class="link ms-9 cursor-pointer"
-              aria-label="pages.ariafaq."
-              custom-title="FAQs"
-              tabindex="0"
-              style={{ display: "none" }}
-            >
-              FAQs
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              class="link ms-9 cursor-pointer"
-              aria-label="Ask for support"
-              custom-title="Support"
-              tabindex="0"
-              style={{ display: "none" }}
-            >
               Support
-              <div data-v-34310377="" class="link__border mt-2"></div>
-            </a>
+            </Link>
+            <Link
+              to="/faqs"
+              data-v-34310377=""
+              class="makeshift-text-dark cursor-pointer"
+              aria-label="See Kiosk Locations"
+              custom-title="Kiosk Locations"
+              tabindex="0"
+            >
+              Faqs{" "}
+            </Link>
           </div>
+
+          {/* MAKESHIFT */}
           <div data-v-34310377="" class="d-flex align-center">
             <button
               data-v-34310377=""
@@ -273,7 +237,7 @@ const AboutNav = () => {
                 ></i>
               </span>
             </button>
-            <i
+            {/* <i
               data-v-34310377=""
               class="mdi-menu mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default v-icon--clickable d-sm-none mx-2"
               role="button"
@@ -285,7 +249,7 @@ const AboutNav = () => {
               }}
               aria-label="button"
               data-uw-rm-empty-ctrl=""
-            ></i>
+            ></i> */}
             <button
               data-v-34310377=""
               type="button"

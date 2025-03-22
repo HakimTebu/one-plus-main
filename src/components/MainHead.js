@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MainHead = () => {
   return (
@@ -43,10 +44,6 @@ const MainHead = () => {
             <span class="v-btn__underlay"></span>
 
             <span class="v-btn__content" data-no-activator="">
-              {/* <i
-                class="uaepass-pencil-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
-                aria-hidden="true"
-              ></i> */}
               <span
                 class="font-weight-600 letter-spacing-0 black-text-change"
                 style={{ color: "black!important" }}
@@ -74,15 +71,9 @@ const MainHead = () => {
             <span class="v-btn__underlay"></span>
 
             <span class="v-btn__content" data-no-activator="">
-              {/* <i
-                data-v-5bdf237f=""
-                class="mdi-check-decagram-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
-                aria-hidden="true"
-              ></i> */}
               <span
                 data-v-5bdf237f=""
                 class="font-weight-600 letter-spacing-0 black-text-change"
-                // style={{ color: "black !important" }}
               >
                 Verify Document
               </span>
@@ -98,20 +89,22 @@ const MainHead = () => {
           >
             <span class="v-btn__overlay"></span>
             <span class="v-btn__underlay"></span>
+            <Link to="" class="font-weight-600 letter-spacing-0 links-new">
+              <span class="v-btn__content" data-no-activator="">
+                <i
+                  data-v-a88e803d=""
+                  class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
+                  aria-hidden="true"
+                ></i>
 
-            <span class="v-btn__content" data-no-activator="">
-              <i
-                data-v-a88e803d=""
-                class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
-                aria-hidden="true"
-              ></i>
-              <span
-                data-v-a88e803d=""
-                class="font-weight-600 letter-spacing-0 "
-              >
-                Watch Video
+                <span
+                  data-v-a88e803d=""
+                  class="font-weight-600 letter-spacing-0 "
+                >
+                  Watch Video
+                </span>
               </span>
-            </span>
+            </Link>
           </button>
         </div>
         <div
@@ -203,8 +196,7 @@ const MainHead = () => {
           ></div>
           <img
             class="v-img__img v-img__img--contain"
-            src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742610171/iphone-3_k328b2.png"
-            alt="mobile uaepass image"
+            src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742672893/iphone-4_dypzo3.png"
             data-uw-rm-alt-original="mobile uaepass image"
             data-uw-rm-alt="ALT"
           />

@@ -19,7 +19,6 @@ const NavBar = () => {
       <div
         data-v-523525b0=""
         className="header bg-color-transparent header--transparent"
-        
       >
         <div
           data-v-0cb5a6fb=""
@@ -187,6 +186,38 @@ const NavBar = () => {
             </div>
           </Link>
 
+          {/* MAKESHIFT */}
+          <div className="makeshift">
+            <Link to="/about"
+              data-v-34310377=""
+              class="makeshift-text cursor-pointer"
+              aria-label="Home"
+              custom-title="Home"
+              tabindex="0"
+            >
+              About
+            </Link>
+            <Link to="/support"
+              data-v-34310377=""
+              class="makeshift-text cursor-pointer makeshift-text"
+              aria-label="See our partners"
+              custom-title="Partners"
+              tabindex="0"
+            >
+              Support
+            </Link>
+            <Link to ="/faqs"
+              data-v-34310377=""
+              class="makeshift-text cursor-pointer"
+              aria-label="See Kiosk Locations"
+              custom-title="Kiosk Locations"
+              tabindex="0"
+            >
+              Faqs{" "}
+            </Link>
+          </div>
+
+          {/* MAKESHIFT */}
           <div data-v-34310377="" className="d-flex align-center">
             <button
               data-v-34310377=""
@@ -218,32 +249,8 @@ const NavBar = () => {
                 ></i>
               </span>
             </button>
-            <span
-              data-v-34310377=""
-              className="mdi-menu mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white v-icon--clickable d-sm-none mx-2"
-              // role="button"
-              aria-hidden="false"
-              tabindex="0"
-              aria-label="Open menu"
-              data-uw-rm-empty-ctrl=""
-              onClick={toggleMenu}
-            >
-              {" "}
-              {/* <i
-                data-v-34310377=""
-                className="mdi-menu mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white v-icon--clickable d-sm-none mx-2"
-                role="button"
-                aria-hidden="false"
-                tabindex="0"
-                aria-label="Open menu"
-                data-uw-rm-empty-ctrl=""
-                onClick={toggleMenu}
-              ></i> */}
-            </span>
-
-            {/* <span classNameName="hamburger-menu" onClick={toggleMenu}>
-              <GiHamburgerMenu />
-            </span> */}
+           
+           
             <button
               data-v-34310377=""
               type="button"
@@ -275,17 +282,16 @@ const NavBar = () => {
             data-v-6ca6b6e6=""
             className="d-flex justify-space-between align-center"
           >
-            <a
+            <Link
+              to="/"
               data-v-34310377=""
-              href="/"
               aria-label="Home"
               data-uw-rm-brl="PR"
-              data-uw-original-href="https://uaepass.ae/"
             >
               <div
                 data-v-34310377=""
                 className="v-responsive v-img white-logo"
-                aria-label="UAE Pass logo"
+                aria-label="ONE Pass logo"
                 role="img"
                 style={{ height: "36px", width: "126px" }}
               >
@@ -303,7 +309,7 @@ const NavBar = () => {
                   data-uw-rm-alt="ALT"
                 />
               </div>
-            </a>
+            </Link>
             <div data-v-34310377="" className="d-sm-flex d-none transparent">
               <a
                 data-v-34310377=""

@@ -21,7 +21,7 @@ const AboutHeaderMain = () => {
           <div data-v-41d4c433="" class="public__page-container">
             <div data-v-41d4c433="" class="pt-sm-16 pt-6 pb-sm-13 pb-6">
               <div data-v-41d4c433="" class="d-flex about">
-                <div data-v-86da1204="" data-v-41d4c433="" class="description">
+                <div data-v-86da1204="" data-v-41d4c433="" class="description desc-padding80">
                   <div data-v-86da1204="">
                     <p
                       data-v-831627a3=""

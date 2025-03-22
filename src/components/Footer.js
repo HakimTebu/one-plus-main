@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -76,54 +77,33 @@ const Footer = () => {
           class="d-flex justify-md-space-between flex-md-row flex-column"
         >
           <div data-v-d076b49a="" class="mb-md-0 mb-4 d-flex flex-wrap">
-            <a
+            <Link to="/about"
               data-v-d076b49a=""
               aria-label="About Us"
               class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
               tabindex="0"
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link to="/faqs"
               data-v-d076b49a=""
               aria-label="Frequently Asked Questions"
               class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
               tabindex="0"
             >
               FAQs
-            </a>
-            <a
+            </Link>
+            <Link to="/support"
               data-v-d076b49a=""
               aria-label="Ask for support"
               class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
               tabindex="0"
             >
               Support
-            </a>
-            {/* <a
-              data-v-d076b49a=""
-              aria-label="See Kiosk Locations"
-              class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
-              tabindex="0"
-            >
-              Kiosk Locations
-            </a> */}
-            <a
-              data-v-d076b49a=""
-              aria-label="See our partners"
-              class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
-              tabindex="0"
-            >
-              Partners
-            </a>
-            {/* <a
-              data-v-d076b49a=""
-              aria-label="Developers"
-              class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
-              tabindex="0"
-            >
-              Developers
-            </a> */}
+            </Link>
+          
+            
+           
           </div>
           <p data-v-d076b49a="" class="footer__copyright">
             Copyright © 2025 OnePass All rights reserved.
