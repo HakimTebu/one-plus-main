@@ -361,7 +361,7 @@ const SupportHeaderMain = () => {
                                   class="v-label v-label--clickable"
                                   for="checkbox-55"
                                 >
-                                  I agree with UAE PASS Privacy Policy
+                                  I agree with OnePass Privacy Policy
                                 </label>
                               </div>
                             </div>
@@ -432,13 +432,13 @@ const SupportHeaderMain = () => {
                     data-v-c3c9b3de=""
                     class="contact__desc text-color-gray-50 mt-4"
                   >
-                    UAE PASS
+                    OnePass
                   </p>
                   <p
                     data-v-c3c9b3de=""
                     class="contact__desc text-color-gray-50 mt-4"
                   >
-                    United Arab Emirates
+                    United States
                   </p>
                   <div data-v-c3c9b3de="" class="mt-2 d-flex align-center">
                     <i

@@ -230,7 +230,7 @@ const MainHead = () => {
             data-v-f1abacc5=""
             class="text-sm-h5 text-overline font-weight-bold banner__line-height"
           >
-            UAE PASS
+            OnePass
           </p>
         </div>
       </div>

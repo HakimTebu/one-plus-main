@@ -68,14 +68,14 @@ const AboutNav = () => {
             >
               FAQs
             </Link>
-            <a
+            <Link to="/support"
               data-v-0cb5a6fb=""
               aria-label="Ask for support"
               tabindex="0"
               class="link ms-9 cursor-pointer"
             >
               Support
-            </a>
+            </Link>
           </div>
           <div
             data-v-0cb5a6fb=""
