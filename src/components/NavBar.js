@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +19,7 @@ const NavBar = () => {
       <div
         data-v-523525b0=""
         className="header bg-color-transparent header--transparent"
+        
       >
         <div
           data-v-0cb5a6fb=""
@@ -26,7 +27,8 @@ const NavBar = () => {
           className="d-none d-sm-flex justify-space-between transparent"
         >
           <div data-v-0cb5a6fb="" className="d-flex" gap="36">
-            <Link to="/"
+            <Link
+              to="/"
               data-v-0cb5a6fb=""
               aria-label="Home"
               tabindex="0"
@@ -35,7 +37,8 @@ const NavBar = () => {
             >
               Home
             </Link>
-            <Link to="/kiosk"
+            <Link
+              to="/kiosk"
               data-v-0cb5a6fb=""
               aria-label="See Kiosk Locations"
               tabindex="0"
@@ -44,7 +47,8 @@ const NavBar = () => {
             >
               Kiosk Locations
             </Link>
-            <Link to="/partners"
+            <Link
+              to="/partners"
               data-v-0cb5a6fb=""
               aria-label="See our partners"
               tabindex="0"
@@ -53,7 +57,8 @@ const NavBar = () => {
             >
               Partners
             </Link>
-            <Link to="/developer"
+            <Link
+              to="/developer"
               data-v-0cb5a6fb=""
               aria-label="Developers"
               tabindex="0"
@@ -62,7 +67,8 @@ const NavBar = () => {
             >
               Developers
             </Link>
-            <Link to ="/about"
+            <Link
+              to="/about"
               data-v-0cb5a6fb=""
               aria-label="About Us"
               tabindex="0"
@@ -70,7 +76,8 @@ const NavBar = () => {
             >
               About
             </Link>
-            <Link to="/faqs"
+            <Link
+              to="/faqs"
               data-v-0cb5a6fb=""
               aria-label="pages.ariafaq."
               tabindex="0"
@@ -78,7 +85,8 @@ const NavBar = () => {
             >
               FAQs
             </Link>
-            <Link to="/support"
+            <Link
+              to="/support"
               data-v-0cb5a6fb=""
               aria-label="Ask for support"
               tabindex="0"
@@ -147,7 +155,8 @@ const NavBar = () => {
           data-v-523525b0=""
           className="d-flex justify-space-between align-center"
         >
-          <Link to="/"
+          <Link
+            to="/"
             data-v-34310377=""
             href="/"
             aria-label="Home"
@@ -209,17 +218,29 @@ const NavBar = () => {
                 ></i>
               </span>
             </button>
-
-            <i
+            <span
               data-v-34310377=""
               className="mdi-menu mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white v-icon--clickable d-sm-none mx-2"
-              role="button"
+              // role="button"
               aria-hidden="false"
               tabindex="0"
               aria-label="Open menu"
               data-uw-rm-empty-ctrl=""
               onClick={toggleMenu}
-            ></i>
+            >
+              {" "}
+              {/* <i
+                data-v-34310377=""
+                className="mdi-menu mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white v-icon--clickable d-sm-none mx-2"
+                role="button"
+                aria-hidden="false"
+                tabindex="0"
+                aria-label="Open menu"
+                data-uw-rm-empty-ctrl=""
+                onClick={toggleMenu}
+              ></i> */}
+            </span>
+
             {/* <span classNameName="hamburger-menu" onClick={toggleMenu}>
               <GiHamburgerMenu />
             </span> */}
