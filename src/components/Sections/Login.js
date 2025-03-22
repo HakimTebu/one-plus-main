@@ -83,7 +83,7 @@ const Login = () => {
                   class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
                   style={{
-                    color: "rgb(17, 165, 111)",
+                    color: "rgb(70 64 255)",
                     caretColor: "rgb(17, 165, 111)",
                   }}
                 ></i>
@@ -110,7 +110,7 @@ const Login = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566462/Digital-identity_pzveh9.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742640903/DID_bgtlxh.svg"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -171,9 +171,7 @@ const Login = () => {
                   class="uaepass-pencil-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
                   aria-hidden="true"
                 ></i> */}
-                <span class="font-weight-600 letter-spacing-0">
-                  Sign Document
-                </span>
+                <span class="font-weight-600 letter-spacing-0">Read More</span>
               </span>
             </button>
             <input
@@ -195,16 +193,11 @@ const Login = () => {
               <span class="v-btn__underlay"></span>
 
               <span class="v-btn__content" data-no-activator="">
-                {/* <i
-                  data-v-5bdf237f=""
-                  class="mdi-check-decagram-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
-                  aria-hidden="true"
-                ></i> */}
                 <span
                   data-v-5bdf237f=""
                   class="font-weight-600 letter-spacing-0"
                 >
-                  Verify Document
+                  Explore Options
                 </span>
               </span>
             </button>
@@ -226,7 +219,7 @@ const Login = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566462/Credit-scoring_byqlvf.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566462/Digital-identity_pzveh9.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -285,7 +278,7 @@ const Login = () => {
                   class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
                   style={{
-                    color: "rgb(255, 255, 255)",
+                    color: "rgb(70 64 255)",
                     caretColor: "rgb(255, 255, 255)",
                   }}
                 ></i>
@@ -310,7 +303,7 @@ const Login = () => {
                   class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
                   style={{
-                    color: "rgb(17, 165, 111)",
+                    color: "rgb(49 34 255)",
                     caretColor: "rgb(17, 165, 111)",
                   }}
                 ></i>
@@ -350,8 +343,32 @@ const Login = () => {
       <div
         data-v-5d0ad5db=""
         id="documentSharing"
-        class="d-flex justify-space-between tip mt-8 flex-row flex-column-reverse flex-sm-row"
+        class="d-flex justify-space-between tip mt-8 flex-row flex-column-reverse flex-sm-row reverse-again-force"
       >
+        <div
+          data-v-5d0ad5db=""
+          class="d-flex align-center justify-center py-sm-13 py-7"
+        >
+          <div
+            data-v-5d0ad5db=""
+            class="v-responsive v-img tip__image"
+            aria-label="[object Object] image"
+            role="img"
+          >
+            <div
+              class="v-responsive__sizer"
+              style={{ paddingBottom: "100%" }}
+            ></div>
+            <img
+              class="v-img__img v-img__img--contain"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566463/Wallet-solution_ibfuah.png"
+              alt="[object Object] image"
+              style={{}}
+              data-uw-rm-alt-original="[object Object] image"
+              data-uw-rm-alt="ALT"
+            />
+          </div>
+        </div>
         <div
           data-v-5d0ad5db=""
           class="tip__text d-flex flex-column justify-center"
@@ -429,30 +446,6 @@ const Login = () => {
                 </span>
               </span>
             </button>
-          </div>
-        </div>
-        <div
-          data-v-5d0ad5db=""
-          class="d-flex align-center justify-center py-sm-13 py-7"
-        >
-          <div
-            data-v-5d0ad5db=""
-            class="v-responsive v-img tip__image"
-            aria-label="[object Object] image"
-            role="img"
-          >
-            <div
-              class="v-responsive__sizer"
-              style={{ paddingBottom: "100%" }}
-            ></div>
-            <img
-              class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566463/Wallet-solution_ibfuah.png"
-              alt="[object Object] image"
-              style={{}}
-              data-uw-rm-alt-original="[object Object] image"
-              data-uw-rm-alt="ALT"
-            />
           </div>
         </div>
       </div>

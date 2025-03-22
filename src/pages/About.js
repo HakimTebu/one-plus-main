@@ -18,8 +18,8 @@ const About = () => {
               <AboutNav />
               <AboutHeader />
               <AboutHeaderMain />
-                          <Corp />
-                          <Footer/>
+              <Corp />
+              <Footer />
             </div>
           </div>
         </div>

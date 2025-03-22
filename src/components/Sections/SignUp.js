@@ -203,14 +203,14 @@ const SignUp = () => {
                 <span class="v-btn__overlay"></span>
                 <span class="v-btn__underlay"></span>
                 <span class="v-btn__prepend">
-                  <i
+                  {/* <i
                     data-v-164d3229=""
                     class="mdi-map-marker-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-success"
                     aria-hidden="true"
-                  ></i>
+                  ></i> */}
                 </span>
                 <span class="v-btn__content" data-no-activator="">
-                  Nearest Kiosk
+                  LearnMore
                 </span>
               </button>
             </span>
@@ -257,14 +257,14 @@ const SignUp = () => {
                 <span class="v-btn__overlay"></span>
                 <span class="v-btn__underlay"></span>
                 <span class="v-btn__prepend">
-                  <i
+                  {/* <i
                     data-v-164d3229=""
                     class="mdi-map-marker-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-success"
                     aria-hidden="true"
-                  ></i>
+                  ></i> */}
                 </span>
                 <span class="v-btn__content" data-no-activator="">
-                  Nearest Kiosk
+                  LearnMore
                 </span>
               </button>
             </span>

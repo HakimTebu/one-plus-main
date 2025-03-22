@@ -36,11 +36,11 @@ const Corp = () => {
             >
               <div
                 class="v-responsive__sizer"
-                style={{paddingBottom: "38.2716%"}}
+                style={{ paddingBottom: "38.2716%" }}
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="/images/logos/dda.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742639412/citibank_w7w7lf.svg"
                 alt="dda logo"
                 style={{}}
                 data-uw-rm-alt-original="dda logo"
@@ -66,7 +66,7 @@ const Corp = () => {
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="/images/logos/tdra.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742639411/chase_hu2zb3.svg"
                 alt="tdra logo"
                 style={{}}
                 data-uw-rm-alt-original="tdra logo"
@@ -88,11 +88,11 @@ const Corp = () => {
             >
               <div
                 class="v-responsive__sizer"
-                style={{paddingBottom: "24.1026%"}}
+                style={{ paddingBottom: "24.1026%" }}
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="/images/logos/adda.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742639884/Morgan_qmfvpm.svg"
                 alt="adda logo"
                 style={{}}
                 data-uw-rm-alt-original="adda logo"

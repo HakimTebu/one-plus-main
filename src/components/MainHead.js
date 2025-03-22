@@ -139,7 +139,7 @@ const MainHead = () => {
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742493993/dda_umgjsx.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742639882/chase-2_qoojtd.svg"
                 alt="Digital Dubai logo"
                 style={{}}
                 data-uw-rm-alt-original="Digital Dubai logo"
@@ -160,7 +160,7 @@ const MainHead = () => {
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742493993/tdra_ov8wht.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742639882/citibank-2_gsu5di.svg"
                 alt="TDRA logo"
                 data-uw-rm-alt-original="TDRA logo"
                 role="img"
@@ -180,7 +180,7 @@ const MainHead = () => {
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742493993/adda_mktyts.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742639884/Morgan-2_yxbgxa.svg"
                 alt="Adda logo"
                 data-uw-rm-alt-original="Adda logo"
                 role="img"

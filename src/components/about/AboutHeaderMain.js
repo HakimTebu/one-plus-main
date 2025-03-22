@@ -33,37 +33,35 @@ const AboutHeaderMain = () => {
                       data-v-a2da30b3=""
                       class="text-color-gray-70 font-weight-bold mt-sm-4 mt-1"
                     >
-                      About UAE PASS
+                      About OnePass
                     </h1>
                     <p
                       data-v-ca2ff154=""
                       class="text-color-gray-50 mt-sm-6 mt-4 header__page-desc"
                     >
-                      UAE PASS is the first national digital identity, for all
-                      citizens, residents, and visitors in the UAE.
+                      OnePass is a secure digital identity and financial
+                      management platform designed for individuals and
+                      businesses. It enables seamless identity verification,
+                      encrypted document storage, AI-powered credit scoring, and
+                      smart financial tools.
                     </p>
                   </div>
                   <p
                     data-v-86da1204=""
                     class="description__desc text-color-gray-50 font-weight-medium mt-3"
                   >
-                    Allowing you to access services across different sectors in
-                    the UAE, digitally sign &amp; verify documents, request for
-                    a digital copy of your issued documents, as well as avail
-                    services through sharing the digital documents.
+                    With OnePass, users can verify their identity, securely
+                    store and share documents, access real-time credit scores,
+                    and manage loans and budgets—all in compliance with global
+                    security and regulatory standards.
                   </p>
                   <p
                     data-v-86da1204=""
                     class="description__desc text-color-gray-50 font-weight-medium mt-3"
                   >
-                    UAE PASS is a national joint initiative with Digital Dubai,
-                    Telecommunications and Digital Government Regulatory
-                    Authority and Department of Government Enablement, with the
-                    aim to provide a single trusted digital identity solution
-                    for service providers and customers in the UAE, while
-                    maintaining a seamless user experience and facilitating
-                    paperless government with a high level of security
-                    assurance.
+                    OnePass partners with financial institutions, regulators,
+                    and organizations to ensure a trusted and seamless digital
+                    experience.
                   </p>
                 </div>
                 <div
@@ -78,7 +76,7 @@ const AboutHeaderMain = () => {
                   ></div>
                   <img
                     class="v-img__img v-img__img--contain"
-                    src="/images/finger-print.png"
+                    src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742638540/Sheild-2_i6npzc.svg"
                     alt="fingerprint"
                     style={{}}
                     data-uw-rm-alt-original="fingerprint"
@@ -86,7 +84,7 @@ const AboutHeaderMain = () => {
                   />
                 </div>
               </div>
-              <div data-v-41d4c433="" class="about__entities">
+              {/* <div data-v-41d4c433="" class="about__entities">
                 <div data-v-344c9750="" data-v-41d4c433="" class="entities">
                   <p
                     data-v-344c9750=""
@@ -251,7 +249,7 @@ const AboutHeaderMain = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </main>

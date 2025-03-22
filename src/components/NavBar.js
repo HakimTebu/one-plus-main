@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { GrWheelchair } from "react-icons/gr";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
@@ -27,7 +26,7 @@ const NavBar = () => {
           className="d-none d-sm-flex justify-space-between transparent"
         >
           <div data-v-0cb5a6fb="" className="d-flex" gap="36">
-            <a
+            <Link to="/"
               data-v-0cb5a6fb=""
               aria-label="Home"
               tabindex="0"
@@ -35,8 +34,8 @@ const NavBar = () => {
               style={{ display: "none" }}
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link to="/kiosk"
               data-v-0cb5a6fb=""
               aria-label="See Kiosk Locations"
               tabindex="0"
@@ -44,8 +43,8 @@ const NavBar = () => {
               style={{ display: "none" }}
             >
               Kiosk Locations
-            </a>
-            <a
+            </Link>
+            <Link to="/partners"
               data-v-0cb5a6fb=""
               aria-label="See our partners"
               tabindex="0"
@@ -53,8 +52,8 @@ const NavBar = () => {
               style={{ display: "none" }}
             >
               Partners
-            </a>
-            <a
+            </Link>
+            <Link to="/developer"
               data-v-0cb5a6fb=""
               aria-label="Developers"
               tabindex="0"
@@ -62,31 +61,31 @@ const NavBar = () => {
               style={{ display: "none" }}
             >
               Developers
-            </a>
-            <a
+            </Link>
+            <Link to ="/about"
               data-v-0cb5a6fb=""
               aria-label="About Us"
               tabindex="0"
               className="link cursor-pointer"
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link to="/faqs"
               data-v-0cb5a6fb=""
               aria-label="pages.ariafaq."
               tabindex="0"
               className="link ms-9 cursor-pointer"
             >
               FAQs
-            </a>
-            <a
+            </Link>
+            <Link to="/support"
               data-v-0cb5a6fb=""
               aria-label="Ask for support"
               tabindex="0"
               className="link ms-9 cursor-pointer"
             >
               Support
-            </a>
+            </Link>
           </div>
           <div
             data-v-0cb5a6fb=""
@@ -148,7 +147,7 @@ const NavBar = () => {
           data-v-523525b0=""
           className="d-flex justify-space-between align-center"
         >
-          <a
+          <Link to="/"
             data-v-34310377=""
             href="/"
             aria-label="Home"
@@ -177,82 +176,7 @@ const NavBar = () => {
                 data-uw-rm-alt="ALT"
               />
             </div>
-          </a>
-          <div data-v-34310377="" className="d-sm-flex d-none transparent">
-            <a
-              data-v-34310377=""
-              className="link link--active cursor-pointer"
-              aria-label="Home"
-              custom-title="Home"
-              tabindex="0"
-            >
-              Home
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              className="link ms-md-8 ms-4 cursor-pointer"
-              aria-label="See Kiosk Locations"
-              custom-title="Kiosk Locations"
-              tabindex="0"
-            >
-              Kiosk Locations
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              className="link ms-md-8 ms-4 cursor-pointer"
-              aria-label="See our partners"
-              custom-title="Partners"
-              tabindex="0"
-            >
-              Partners
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              className="link ms-md-8 ms-4 cursor-pointer"
-              aria-label="Developers"
-              custom-title="Developers"
-              tabindex="0"
-            >
-              Developers
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              className="link cursor-pointer"
-              aria-label="About Us"
-              custom-title="About"
-              tabindex="0"
-              style={{ display: "none" }}
-            >
-              About
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              className="link ms-9 cursor-pointer"
-              aria-label="pages.ariafaq."
-              custom-title="FAQs"
-              tabindex="0"
-              style={{ display: "none" }}
-            >
-              FAQs
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-            <a
-              data-v-34310377=""
-              className="link ms-9 cursor-pointer"
-              aria-label="Ask for support"
-              custom-title="Support"
-              tabindex="0"
-              style={{ display: "none" }}
-            >
-              Support
-              <div data-v-34310377="" className="link__border mt-2"></div>
-            </a>
-          </div>
+          </Link>
 
           <div data-v-34310377="" className="d-flex align-center">
             <button
@@ -321,7 +245,6 @@ const NavBar = () => {
         <div
           data-v-6ca6b6e6=""
           data-v-523525b0=""
-          // className="mobile-header d-sm-none mobile-header--transparent mobile-header--expanded"
           className={`mobile-header d-sm-none mobile-header--transparent mobile-header--expanded mobile__menu ${
             isMenuOpen ? "active" : ""
           }`}
@@ -371,16 +294,7 @@ const NavBar = () => {
                 Home
                 <div data-v-34310377="" className="link__border mt-2"></div>
               </a>
-              <a
-                data-v-34310377=""
-                className="link ms-md-8 ms-4 cursor-pointer"
-                aria-label="See Kiosk Locations"
-                custom-title="Kiosk Locations"
-                tabindex="0"
-              >
-                Kiosk Locations
-                <div data-v-34310377="" className="link__border mt-2"></div>
-              </a>
+
               <a
                 data-v-34310377=""
                 className="link ms-md-8 ms-4 cursor-pointer"
@@ -401,6 +315,7 @@ const NavBar = () => {
                 Developers
                 <div data-v-34310377="" className="link__border mt-2"></div>
               </a>
+
               <a
                 data-v-34310377=""
                 className="link cursor-pointer"
@@ -409,9 +324,11 @@ const NavBar = () => {
                 tabindex="0"
                 style={{ display: "none" }}
               >
-                About
+                <Link to="/about">About</Link>
+
                 <div data-v-34310377="" className="link__border mt-2"></div>
               </a>
+
               <a
                 data-v-34310377=""
                 className="link ms-9 cursor-pointer"
@@ -528,14 +445,17 @@ const NavBar = () => {
               >
                 Developers
               </a>
-              <a
-                data-v-6ca6b6e6=""
-                aria-label="About Us"
-                className="mobile-header__nav cursor-pointer"
-                tabindex="0"
-              >
-                About
-              </a>
+              <Link to="/about">
+                <a
+                  data-v-6ca6b6e6=""
+                  aria-label="About Us"
+                  className="mobile-header__nav cursor-pointer"
+                  tabindex="0"
+                >
+                  About
+                </a>
+              </Link>
+
               <a
                 data-v-6ca6b6e6=""
                 aria-label="pages.ariafaq."

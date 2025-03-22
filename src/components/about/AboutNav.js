@@ -161,11 +161,11 @@ const AboutNav = () => {
             >
               <div
                 class="v-responsive__sizer"
-                style={{paddingBottom: "29.4118%"}}
+                style={{ paddingBottom: "29.4118%" }}
               ></div>
               <img
                 class="v-img__img v-img__img--contain"
-                src="/images/full-logo.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742561077/logo_mwu0uv.svg"
                 alt="UAE Pass logo"
                 style={{}}
                 data-uw-rm-alt-original="UAE Pass logo"
@@ -256,7 +256,7 @@ const AboutNav = () => {
               class="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme bg-white v-btn--density-compact v-btn--variant-elevated mx-1 uaepass-accessibility"
               id="uaepass-accessibility-trigger"
               data-test="accessibility-btn"
-              style={{width: "30px", height: "30px", display: "none"}}
+              style={{ width: "30px", height: "30px", display: "none" }}
               aria-label="button"
               data-uw-rm-empty-ctrl=""
             >

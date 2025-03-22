@@ -34,7 +34,7 @@ const Contact = () => {
               data-uw-rm-vglnk=""
               uw-rm-vague-link-id="tel:600561111$call 600561111"
             >
-              600 56 1111
+              600 560 1111
             </a>
           </div>
         </div>

@@ -107,7 +107,7 @@
 
 .v-btn.uaepass-accessibility.not-visible[data-v-34310377] {
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-icon[data-v-34310377] {
@@ -642,7 +642,7 @@
 }
 
 .v-btn[data-v-164d3229] {
-  color: #11a56f;
+  color: #26253a;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.15px;
@@ -3350,7 +3350,7 @@ progress {
 .dialog-top-transition-leave-active,
 .dialog-transition-enter-active,
 .dialog-transition-leave-active {
-  pointer-events: none;
+  pointer-events: auto;
   transition-property: transform, opacity !important;
 }
 
@@ -51861,7 +51861,7 @@ html.overflow-y-hidden {
 }
 
 .text-color-primary-60 {
-  color: #4291fe !important;
+  color: #272d37 !important;
 }
 
 .bg-color-primary-60 {
@@ -52867,7 +52867,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 
 .v-responsive__sizer {
   flex: 1 0 0px;
-  pointer-events: none;
+  pointer-events: auto;
   transition: padding-bottom 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -53067,7 +53067,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -53084,7 +53084,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
     height: 100%;
     left: 0;
     opacity: 0;
-    pointer-events: none;
+    pointer-events: auto;
     position: absolute;
     top: 0;
     transition: opacity 0.2s ease-in-out;
@@ -53146,7 +53146,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 
 .v-btn--disabled {
   opacity: 0.26;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-btn--disabled:hover {
@@ -53167,7 +53167,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 }
 
 .v-btn--loading {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-btn--loading .v-btn__append,
@@ -53263,7 +53263,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 }
 
 .v-btn--readonly {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-btn--rounded {
@@ -53361,7 +53361,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 .v-btn__underlay {
   height: 100%;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -53513,7 +53513,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 
 .v-icon--disabled {
   opacity: 0.38;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-icon--size-x-small {
@@ -53706,7 +53706,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   height: 100%;
   justify-content: center;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -53760,7 +53760,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: auto;
   opacity: 0.3;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   transition: inherit;
   transition-property: width, left, right;
@@ -53940,7 +53940,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   color: inherit;
   left: 0;
   overflow: hidden;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
 }
@@ -54048,7 +54048,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -54122,7 +54122,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: var(--v-border-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   right: 0;
   top: 0;
@@ -54462,7 +54462,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -54516,7 +54516,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 
 .v-selection-control--disabled {
   opacity: var(--v-disabled-opacity);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-selection-control--disabled .v-label,
@@ -54587,7 +54587,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   height: 100%;
   left: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -54654,7 +54654,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 }
 
 .v-input--disabled {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-input--density-default {
@@ -55238,7 +55238,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -55306,7 +55306,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   height: 100%;
   left: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   transition: opacity 0.2s ease-in-out;
@@ -55315,7 +55315,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 
 .v-chip--disabled {
   opacity: 0.3;
-  pointer-events: none;
+  pointer-events: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -55365,7 +55365,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 .v-slide-group__next--disabled,
 .v-slide-group__prev--disabled {
   opacity: var(--v-disabled-opacity);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-slide-group__content {
@@ -55434,7 +55434,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 }
 
 .v-list--disabled {
-  pointer-events: none;
+  pointer-events: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -55520,7 +55520,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   right: 0;
   top: 0;
@@ -55654,7 +55654,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -55671,7 +55671,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
     height: 100%;
     left: 0;
     opacity: 0;
-    pointer-events: none;
+    pointer-events: auto;
     position: absolute;
     top: 0;
     transition: opacity 0.2s ease-in-out;
@@ -55707,7 +55707,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 
 .v-list-item--disabled {
   opacity: 0.6;
-  pointer-events: none;
+  pointer-events: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -56034,7 +56034,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   bottom: 0;
   left: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   right: 0;
   top: 0;
@@ -56177,7 +56177,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   contain: layout;
   display: contents;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
 }
@@ -56203,7 +56203,7 @@ html.v-overlay-scroll-blocked {
   bottom: 0;
   display: flex;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: fixed;
   right: 0;
   top: 0;
@@ -56249,7 +56249,7 @@ html.v-overlay-scroll-blocked {
   caret-color: transparent;
   flex: 0 0;
   opacity: 1;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   transition: none;
   width: 100%;
@@ -56415,7 +56415,7 @@ html.v-overlay-scroll-blocked {
 
 .v-field--disabled {
   opacity: var(--v-disabled-opacity);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-field .v-chip {
@@ -56728,7 +56728,7 @@ textarea.v-field__input::placeholder {
   max-width: calc(
     100% - var(--v-field-padding-start) - var(--v-field-padding-end)
   );
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: var(--v-input-padding-top);
   transform-origin: left center;
@@ -56842,7 +56842,7 @@ textarea.v-field__input::placeholder {
   display: flex;
   height: 100%;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   right: 0;
   width: 100%;
@@ -57014,7 +57014,7 @@ textarea.v-field__input::placeholder {
   border-radius: inherit;
   height: 100%;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -57683,7 +57683,7 @@ textarea.v-field__input::placeholder {
 
 .v-breadcrumbs-item--disabled {
   opacity: var(--v-disabled-opacity);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-breadcrumbs-item--link {
@@ -57838,7 +57838,7 @@ textarea.v-field__input::placeholder {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -57848,7 +57848,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-card--disabled {
-  pointer-events: none;
+  pointer-events: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -57873,7 +57873,7 @@ textarea.v-field__input::placeholder {
   content: "";
   display: block;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   right: 0;
   top: 0;
@@ -58087,7 +58087,7 @@ textarea.v-field__input::placeholder {
   border-radius: inherit;
   bottom: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -58183,7 +58183,7 @@ textarea.v-field__input::placeholder {
   justify-content: space-between;
   left: 0;
   padding: 0 16px;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -58523,7 +58523,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-slider.v-input--disabled {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-slider--has-labels > .v-input__control {
@@ -58583,7 +58583,7 @@ textarea.v-field__input::placeholder {
   height: 100%;
   left: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -59680,7 +59680,7 @@ textarea.v-field__input::placeholder {
   content: "";
   height: 100%;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -61203,7 +61203,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-expansion-panel--disabled .v-expansion-panel-title {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-expansion-panel--active + .v-expansion-panel,
@@ -61372,7 +61372,7 @@ textarea.v-field__input::placeholder {
   align-items: center;
   display: inline-flex;
   flex: 1 1 auto;
-  pointer-events: none;
+  pointer-events: auto;
   position: relative;
   transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -61575,7 +61575,7 @@ textarea.v-field__input::placeholder {
 .v-infinite-scroll-intersect {
   margin-bottom: calc(var(--v-infinite-margin) * -1);
   margin-top: var(--v-infinite-margin);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-infinite-scroll-intersect:nth-child(2) {
@@ -61890,7 +61890,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-rating--readonly {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-rating__wrapper {
@@ -62315,7 +62315,7 @@ textarea.v-field__input::placeholder {
   bottom: 0;
   left: 0;
   opacity: var(--v-activated-opacity);
-  pointer-events: none;
+  pointer-events: auto;
   right: 0;
   top: 0;
 }
@@ -62627,7 +62627,7 @@ textarea.v-field__input::placeholder {
 
 .v-stepper-item--disabled {
   opacity: var(--v-medium-emphasis-opacity);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-stepper--alt-labels .v-stepper-item {
@@ -62703,7 +62703,7 @@ textarea.v-field__input::placeholder {
 .v-stepper-item__underlay {
   height: 100%;
   left: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   width: 100%;
@@ -62781,7 +62781,7 @@ textarea.v-field__input::placeholder {
   height: 20px;
   justify-content: center;
   overflow: hidden;
-  pointer-events: none;
+  pointer-events: auto;
   position: relative;
   transition: transform 0.15s cubic-bezier(0, 0, 0.2, 1) 0.05s,
     color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
@@ -63024,7 +63024,7 @@ textarea.v-field__input::placeholder {
   height: 2px;
   left: 0;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   width: 100%;
 }
@@ -63154,7 +63154,7 @@ textarea.v-field__input::placeholder {
   height: 0 !important;
   left: 0;
   min-height: 0 !important;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   visibility: hidden;
@@ -63811,7 +63811,7 @@ textarea.v-field__input::placeholder {
   opacity: 1;
   overflow-wrap: break-word;
   padding: 5px 16px;
-  pointer-events: none;
+  pointer-events: auto;
   text-transform: none;
   transition-property: opacity, transform;
   width: auto;
@@ -64172,7 +64172,7 @@ textarea.v-field__input::placeholder {
   border-bottom: thin solid #e0e0e0;
   content: "";
   margin-top: -1px;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   width: 100%;
   z-index: 3;
@@ -64394,7 +64394,7 @@ textarea.v-field__input::placeholder {
 .v-stepper-vertical-item.v-expansion-panel--disabled .v-expansion-panel-title,
 .v-stepper-vertical-item:not(.v-stepper-vertical-item--editable)
   .v-expansion-panel-title {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-stepper-vertical-item.v-expansion-panel--disabled
@@ -64563,7 +64563,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-time-picker-clock--readonly {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-time-picker-clock .v-time-picker-clock__item--disabled {
@@ -64623,7 +64623,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-time-picker-clock__item--disabled {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-picker--landscape .v-time-picker-clock__container {
@@ -64694,7 +64694,7 @@ textarea.v-field__input::placeholder {
 }
 
 .v-time-picker-controls__ampm--readonly {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .v-time-picker-controls__ampm--readonly
@@ -64776,7 +64776,7 @@ textarea.v-field__input::placeholder {
 
 .accessibility-btn-hidden .uaepass-accessibility {
   opacity: 0 !important;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .icon__container-survey {
@@ -65376,3 +65376,38 @@ p[data-v-ca2ff154] {
 
 
 /* DELETE */
+
+.v-sheet[data-v-de238826] {
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.collaboration__logo[data-v-5e2c3d81] {
+    height: 100%;
+    width: 100%
+}
+
+.collaboration[data-v-f7976c5b] {
+    padding: 64px 0
+}
+
+@media screen and (max-width: 599px) {
+    .collaboration[data-v-f7976c5b] {
+        padding:32px
+    }
+}
+
+.v-sheet[data-v-de238826] {
+    margin: 0 auto;
+    padding: 0 32px
+}
+
+@media screen and (max-width: 599px) {
+    .v-sheet[data-v-de238826] {
+        padding:0 16px
+    }
+}
+
+.reverse-again-force {
+
+}
