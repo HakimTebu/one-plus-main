@@ -62,7 +62,10 @@ const Login = () => {
                     caretColor: "rgb(255, 255, 255)",
                   }}
                 ></i>
-                <span data-v-5d0ad5db="" class="letter-spacing-0">
+                <span
+                  data-v-5d0ad5db=""
+                  class="letter-spacing-0 links-new-white"
+                >
                   Explore Our Partners
                 </span>
               </span>
@@ -278,11 +281,14 @@ const Login = () => {
                   class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
                   aria-hidden="true"
                   style={{
-                    color: "rgb(70 64 255)",
+                    color: "rgb(255, 255, 255)",
                     caretColor: "rgb(255, 255, 255)",
                   }}
                 ></i>
-                <span data-v-5d0ad5db="" class="letter-spacing-0">
+                <span
+                  data-v-5d0ad5db=""
+                  class="letter-spacing-0 links-new-white"
+                >
                   Explore Services
                 </span>
               </span>
@@ -416,7 +422,10 @@ const Login = () => {
                     caretColor: "rgb(255, 255, 255)",
                   }}
                 ></i>
-                <span data-v-5d0ad5db="" class="letter-spacing-0">
+                <span
+                  data-v-5d0ad5db=""
+                  class="letter-spacing-0 links-new-white"
+                >
                   Explore Services
                 </span>
               </span>

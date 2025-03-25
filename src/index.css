@@ -18,11 +18,11 @@
 }
 
 .transparent .link[data-v-0cb5a6fb] {
-  color: #fff;
+  color: #1d1d21;
 }
 
 .transparent .v-btn[data-v-0cb5a6fb] {
-  color: #fff !important;
+  color: #111010 !important;
 }
 
 .context-menu .v-overlay__content {
@@ -86,7 +86,7 @@
 .v-btn[data-v-34310377] {
   align-items: center;
   background: #000;
-  border-radius: 12px;
+  border-radius: 5px;
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -187,8 +187,8 @@
 }
 
 .v-divider.transparent[data-v-523525b0] {
-  color: #fff;
-  opacity: 1;
+  color: #100f0f;
+  opacity: .2;
 }
 
 @media screen and (max-width: 959px) {
@@ -388,7 +388,7 @@
 }
 
 .logo__adda[data-v-bcd69873] {
-  max-width: 241px;
+  max-width: 150px;
 }
 
 .logo .collaborators__images[data-v-bcd69873] {
@@ -579,7 +579,7 @@
 }
 
 .convenience__wrapper[data-v-0f365038] {
-  background: linear-gradient(180deg, #f0f6ff, #f0f6ff 79.55%, #f0f6ff);
+  background: linear-gradient(180deg, #ffffff, #ffffff 79.55%, #ffffff);
 }
 
 .convenience__tips-container[data-v-0f365038] {
@@ -702,12 +702,12 @@
 }
 
 .banner__wrapper[data-v-1f289850] {
-  background: linear-gradient(180deg, #2f22ff, #2f22ff);
+  background: linear-gradient(180deg, #f1f6ff, #f1f6ff);
   position: relative;
 }
 
 .banner__images-color[data-v-1f289850] {
-  background-color: #4291fd;
+  background-color: #f1f6ff;
   height: 100%;
   position: absolute;
   right: 0;
@@ -2042,7 +2042,7 @@
 }
 
 .text-white {
-  color: #fff !important;
+  color: white !important;
 }
 
 .text-transparent {
@@ -3152,7 +3152,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: Montserrat, sans-serif;
 }
 
 pre {
@@ -3877,7 +3877,7 @@ progress {
 }
 
 html {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   overflow-x: hidden;
@@ -7679,7 +7679,7 @@ html.overflow-y-hidden {
 
 .text-h1,
 .text-h2 {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 300;
   line-height: 1;
   text-transform: none !important;
@@ -7698,7 +7698,7 @@ html.overflow-y-hidden {
 
 .text-h3,
 .text-h4 {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
   text-transform: none !important;
 }
@@ -7718,7 +7718,7 @@ html.overflow-y-hidden {
 
 .text-h5,
 .text-h6 {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   text-transform: none !important;
 }
 
@@ -7738,7 +7738,7 @@ html.overflow-y-hidden {
 
 .text-subtitle-1,
 .text-subtitle-2 {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   text-transform: none !important;
 }
 
@@ -7757,7 +7757,7 @@ html.overflow-y-hidden {
 
 .text-body-1,
 .text-body-2 {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
   text-transform: none !important;
 }
@@ -7773,7 +7773,7 @@ html.overflow-y-hidden {
 }
 
 .text-button {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 500;
   letter-spacing: 0.0892857143em !important;
   line-height: 2.6;
@@ -7789,7 +7789,7 @@ html.overflow-y-hidden {
 
 .text-caption,
 .text-overline {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.75rem !important;
 }
 
@@ -7845,7 +7845,7 @@ html.overflow-y-hidden {
 }
 
 .text-mono {
-  font-family: monospace !important;
+  font-family: Montserrat, sans-serif !important;
 }
 
 .position-static {
@@ -10514,7 +10514,7 @@ html.overflow-y-hidden {
 
   .text-sm-h1,
   .text-sm-h2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     line-height: 1;
     text-transform: none !important;
@@ -10533,7 +10533,7 @@ html.overflow-y-hidden {
 
   .text-sm-h3,
   .text-sm-h4 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -10553,7 +10553,7 @@ html.overflow-y-hidden {
 
   .text-sm-h5,
   .text-sm-h6 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -10573,7 +10573,7 @@ html.overflow-y-hidden {
 
   .text-sm-subtitle-1,
   .text-sm-subtitle-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -10592,7 +10592,7 @@ html.overflow-y-hidden {
 
   .text-sm-body-1,
   .text-sm-body-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -10604,7 +10604,7 @@ html.overflow-y-hidden {
   }
 
   .text-sm-button {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.875rem !important;
     font-weight: 500;
     letter-spacing: 0.0892857143em !important;
@@ -10621,7 +10621,7 @@ html.overflow-y-hidden {
 
   .text-sm-caption,
   .text-sm-overline {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.75rem !important;
   }
 
@@ -13207,7 +13207,7 @@ html.overflow-y-hidden {
 
   .text-md-h1,
   .text-md-h2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     line-height: 1;
     text-transform: none !important;
@@ -13226,7 +13226,7 @@ html.overflow-y-hidden {
 
   .text-md-h3,
   .text-md-h4 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -13246,7 +13246,7 @@ html.overflow-y-hidden {
 
   .text-md-h5,
   .text-md-h6 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -13266,7 +13266,7 @@ html.overflow-y-hidden {
 
   .text-md-subtitle-1,
   .text-md-subtitle-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -13285,7 +13285,7 @@ html.overflow-y-hidden {
 
   .text-md-body-1,
   .text-md-body-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -13297,7 +13297,7 @@ html.overflow-y-hidden {
   }
 
   .text-md-button {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.875rem !important;
     font-weight: 500;
     letter-spacing: 0.0892857143em !important;
@@ -13314,7 +13314,7 @@ html.overflow-y-hidden {
 
   .text-md-caption,
   .text-md-overline {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.75rem !important;
   }
 
@@ -15900,7 +15900,7 @@ html.overflow-y-hidden {
 
   .text-lg-h1,
   .text-lg-h2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     line-height: 1;
     text-transform: none !important;
@@ -15919,7 +15919,7 @@ html.overflow-y-hidden {
 
   .text-lg-h3,
   .text-lg-h4 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -15939,7 +15939,7 @@ html.overflow-y-hidden {
 
   .text-lg-h5,
   .text-lg-h6 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -15959,7 +15959,7 @@ html.overflow-y-hidden {
 
   .text-lg-subtitle-1,
   .text-lg-subtitle-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -15978,7 +15978,7 @@ html.overflow-y-hidden {
 
   .text-lg-body-1,
   .text-lg-body-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -15990,7 +15990,7 @@ html.overflow-y-hidden {
   }
 
   .text-lg-button {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.875rem !important;
     font-weight: 500;
     letter-spacing: 0.0892857143em !important;
@@ -16007,7 +16007,7 @@ html.overflow-y-hidden {
 
   .text-lg-caption,
   .text-lg-overline {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.75rem !important;
   }
 
@@ -18593,7 +18593,7 @@ html.overflow-y-hidden {
 
   .text-xl-h1,
   .text-xl-h2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     line-height: 1;
     text-transform: none !important;
@@ -18612,7 +18612,7 @@ html.overflow-y-hidden {
 
   .text-xl-h3,
   .text-xl-h4 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -18632,7 +18632,7 @@ html.overflow-y-hidden {
 
   .text-xl-h5,
   .text-xl-h6 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -18652,7 +18652,7 @@ html.overflow-y-hidden {
 
   .text-xl-subtitle-1,
   .text-xl-subtitle-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -18671,7 +18671,7 @@ html.overflow-y-hidden {
 
   .text-xl-body-1,
   .text-xl-body-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -18683,7 +18683,7 @@ html.overflow-y-hidden {
   }
 
   .text-xl-button {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.875rem !important;
     font-weight: 500;
     letter-spacing: 0.0892857143em !important;
@@ -18700,7 +18700,7 @@ html.overflow-y-hidden {
 
   .text-xl-caption,
   .text-xl-overline {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.75rem !important;
   }
 
@@ -21286,7 +21286,7 @@ html.overflow-y-hidden {
 
   .text-xxl-h1,
   .text-xxl-h2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     line-height: 1;
     text-transform: none !important;
@@ -21305,7 +21305,7 @@ html.overflow-y-hidden {
 
   .text-xxl-h3,
   .text-xxl-h4 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -21325,7 +21325,7 @@ html.overflow-y-hidden {
 
   .text-xxl-h5,
   .text-xxl-h6 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -21345,7 +21345,7 @@ html.overflow-y-hidden {
 
   .text-xxl-subtitle-1,
   .text-xxl-subtitle-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: none !important;
   }
 
@@ -21364,7 +21364,7 @@ html.overflow-y-hidden {
 
   .text-xxl-body-1,
   .text-xxl-body-2 {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: none !important;
   }
@@ -21376,7 +21376,7 @@ html.overflow-y-hidden {
   }
 
   .text-xxl-button {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.875rem !important;
     font-weight: 500;
     letter-spacing: 0.0892857143em !important;
@@ -21393,7 +21393,7 @@ html.overflow-y-hidden {
 
   .text-xxl-caption,
   .text-xxl-overline {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.75rem !important;
   }
 
@@ -52268,7 +52268,7 @@ html.overflow-y-hidden {
 }
 
 .text-color-on-primary {
-  color: #fff !important;
+  color: #1d1d21 !important;
 }
 
 .bg-color-on-primary {
@@ -53063,7 +53063,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 }
 
 .v-btn--variant-tonal .v-btn__underlay {
-  background: currentColor;
+  /* background: rgb(48 34 255); */
   border-radius: inherit;
   bottom: 0;
   left: 0;
@@ -65520,7 +65520,7 @@ p[data-v-ca2ff154] {
 }
 
 .makeshift-text {
-  color: white;
+  color: black;
   font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -65542,6 +65542,11 @@ p[data-v-ca2ff154] {
 }
 
 .links-new {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.links-new-white {
   color: white;
   text-decoration: none;
   cursor: pointer;

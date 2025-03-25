@@ -36,7 +36,7 @@ const ThePass = () => {
                     fontSize: "40px",
                     height: "40px",
                     width: "40px",
-                    color: "rgb(66 145 254)",
+                    color: "rgb(49 34 253)",
                     caretColor: "rgb(47 34 255)",
                   }}
                 ></i>
@@ -82,7 +82,7 @@ const ThePass = () => {
                     fontSize: "40px",
                     height: "40px",
                     width: "40px",
-                    color: "rgb(66 145 254)",
+                    color: "rgb(49 34 253)",
                     caretColor: "rgb(47 34 255)",
                   }}
                 ></i>
@@ -128,7 +128,7 @@ const ThePass = () => {
                     fontSize: "40px",
                     height: "40px",
                     width: "40px",
-                    color: "rgb(66 145 254)",
+                    color: "rgb(48 34 253)",
                     caretColor: "rgb(47 34 255)",
                   }}
                 ></i>

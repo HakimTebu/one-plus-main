@@ -176,7 +176,7 @@ const NavBar = () => {
               {/* LOGO HERE */}
               <img
                 className="v-img__img v-img__img--contain"
-                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742561077/logo-white_ta2dee.svg"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742561077/logo_mwu0uv.svg"
                 alt="UAE Pass logo"
                 style={{}}
                 data-uw-rm-alt-original="UAE Pass logo"
@@ -188,7 +188,8 @@ const NavBar = () => {
 
           {/* MAKESHIFT */}
           <div className="makeshift">
-            <Link to="/about"
+            <Link
+              to="/about"
               data-v-34310377=""
               class="makeshift-text cursor-pointer"
               aria-label="Home"
@@ -197,7 +198,8 @@ const NavBar = () => {
             >
               About
             </Link>
-            <Link to="/support"
+            <Link
+              to="/support"
               data-v-34310377=""
               class="makeshift-text cursor-pointer makeshift-text"
               aria-label="See our partners"
@@ -206,7 +208,8 @@ const NavBar = () => {
             >
               Support
             </Link>
-            <Link to ="/faqs"
+            <Link
+              to="/faqs"
               data-v-34310377=""
               class="makeshift-text cursor-pointer"
               aria-label="See Kiosk Locations"
@@ -249,8 +252,7 @@ const NavBar = () => {
                 ></i>
               </span>
             </button>
-           
-           
+
             <button
               data-v-34310377=""
               type="button"

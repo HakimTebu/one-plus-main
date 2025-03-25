@@ -23,7 +23,7 @@ const Footer = () => {
                 data-v-59322d10=""
                 class="mdi-crosshairs-gps mdi v-icon notranslate v-theme--uaepassDefaultTheme text-white"
                 aria-hidden="true"
-                style={{ fontSize: "18px", height: "18px", width: "18px" }}
+                style={{ fontSize: "18px", height: "18px", width: "18px", color: "white !important" }}
               ></i>
               <p data-v-59322d10="" class="footer__uae ps-2">
                 United States
