@@ -148,7 +148,7 @@ const AboutHeader = () => {
               <span class="v-btn__underlay"></span>
 
               <span class="v-btn__content" data-no-activator="">
-                Login
+                Explore
               </span>
             </button>
           </div>
@@ -240,7 +240,7 @@ const AboutHeader = () => {
             <span class="v-btn__underlay"></span>
 
             <span class="v-btn__content" data-no-activator="">
-              Login
+              Explore
             </span>
           </button>
         </div>

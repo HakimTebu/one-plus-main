@@ -432,7 +432,7 @@ const NavBar = () => {
                 <span className="v-btn__underlay"></span>
 
                 <span className="v-btn__content" data-no-activator="">
-                  Login
+                  Explore
                 </span>
               </button>
             </div>
@@ -527,7 +527,7 @@ const NavBar = () => {
               <span className="v-btn__underlay"></span>
 
               <span className="v-btn__content" data-no-activator="">
-                Login
+                Explore
               </span>
             </button>
           </div>
