@@ -199,7 +199,7 @@
 
 @media screen and (max-width: 599px) {
   .header[data-v-523525b0] {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #e3e3e3;
     padding: 11px 16px 16px;
   }
 
@@ -56470,6 +56470,7 @@ html.v-overlay-scroll-blocked {
 .v-input--density-default .v-field--variant-solo-inverted {
   --v-input-control-height: 56px;
   --v-field-padding-bottom: 4px;
+  background-color: #fafafa;
 }
 
 .v-input--density-comfortable .v-field--variant-filled,
