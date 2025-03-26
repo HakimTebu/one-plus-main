@@ -188,7 +188,7 @@
 
 .v-divider.transparent[data-v-523525b0] {
   color: #100f0f;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 @media screen and (max-width: 959px) {
@@ -52939,7 +52939,8 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
 }
 
 .v-btn.v-btn--density-default {
-  height: calc(var(--v-btn-height));
+  height: 47px;
+    background-color: blue !important;
 }
 
 .v-btn.v-btn--density-comfortable {
@@ -54563,7 +54564,8 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   height: var(--v-selection-control-size);
   justify-content: center;
   position: relative;
-  width: var(--v-selection-control-size);
+  width: 20px;
+  padding-right: 10px;
 }
 
 .v-selection-control__input {
@@ -54575,7 +54577,7 @@ div[title="Accessibility Menu"].uwy.userway_p1 .userway_buttons_wrapper {
   cursor: pointer;
   height: 100%;
   left: 0;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   width: 100%;
@@ -56304,7 +56306,7 @@ html.v-overlay-scroll-blocked {
   color: inherit;
   flex: 1;
   min-width: 0;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -63173,7 +63175,7 @@ textarea.v-field__input::placeholder {
 .v-textarea textarea {
   flex: 1;
   min-width: 0;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -65420,7 +65422,7 @@ p[data-v-ca2ff154] {
 }
 
 .tabs__expansion-panel[data-v-6807ea87] {
-  border: 1px solid #dae0e6;
+  border: 1px solid #e1e1e1;
 }
 
 .v-tab--selected[data-v-6807ea87] {
@@ -65455,7 +65457,7 @@ p[data-v-ca2ff154] {
 }
 
 .v-expansion-panel--active[data-v-6807ea87] {
-  background: #ebf1fe;
+  background: #f9f9f9;
   margin-top: 0;
 }
 
@@ -65513,7 +65515,7 @@ p[data-v-ca2ff154] {
   color: white !important;
 }
 
-@media(min-width: 599px) {
+@media (min-width: 599px) {
   .makeshift {
     display: none;
   }
@@ -65522,19 +65524,19 @@ p[data-v-ca2ff154] {
 .makeshift-text {
   color: black;
   font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
 }
 
 .makeshift-text-dark {
   color: black;
   font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
 }
 
 .desc-padding80 {
@@ -65554,4 +65556,14 @@ p[data-v-ca2ff154] {
 
 .patch-bg-color {
   background-color: #ebf1fe;
+}
+
+.create-space {
+  padding-bottom: 50px;
+}
+
+@media(max-width: 555px) {
+  .v-btn.v-btn--density-default {
+    width: 100%;
+  }
 }

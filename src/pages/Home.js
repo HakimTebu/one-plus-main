@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <body data-new-gr-c-s-check-loaded="14.1226.0" data-gr-ext-installed>
+    <div data-new-gr-c-s-check-loaded="14.1226.0" data-gr-ext-installed>
       {/* OTHERS */}
       <div class="uw-s10-bottom-ruler-guide"></div>
       <div class="uw-s10-right-ruler-guide"></div>
@@ -32,7 +32,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 
