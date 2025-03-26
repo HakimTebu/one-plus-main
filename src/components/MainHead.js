@@ -250,8 +250,60 @@ const MainHead = () => {
         </div> */}
       </div>
 
-      <div data-v-f1abacc5="" className="banner__images d-flex justify-center">
-        {/* ... rest of your image content remains the same ... */}
+      {/* THE-IMAGE */}
+      <div data-v-f1abacc5="" class="banner__images d-flex justify-center">
+        <div
+          data-v-f1abacc5=""
+          class="v-responsive v-img banner__mobile"
+          aria-label="mobile uaepass image"
+          role="img"
+        >
+          <div
+            class="v-responsive__sizer"
+            style={{ paddingBottom: "169.355%" }}
+          ></div>
+          <img
+            class="v-img__img v-img__img--contain"
+            src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742672893/iphone-4_dypzo3.png"
+            alt="mobile uaepass image"
+            style={{}}
+            data-uw-rm-alt-original="mobile uaepass image"
+            data-uw-rm-alt="ALT"
+          />
+        </div>
+        <div data-v-f1abacc5="" class="banner__qr-wrapper">
+          <div
+            data-v-f1abacc5=""
+            class="v-responsive v-img banner__qr"
+            aria-label="qr code image"
+            role="img"
+          >
+            <div
+              class="v-responsive__sizer"
+              style={{ paddingBottom: "100%" }}
+            ></div>
+            <img
+              class="v-img__img v-img__img--contain"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742905627/qr-code_bg0qlz_fquiz1.png"
+              alt="qr code image"
+              style={{}}
+              data-uw-rm-alt-original="qr code image"
+              data-uw-rm-alt="ALT"
+            />
+          </div>
+          <p
+            data-v-f1abacc5=""
+            class="text-sm-h5 text-overline font-weight-thin mt-sm-4 mt-2 banner__line-height"
+          >
+            Download
+          </p>
+          <p
+            data-v-f1abacc5=""
+            class="text-sm-h5 text-overline font-weight-bold banner__line-height"
+          >
+            OnePass
+          </p>
+        </div>
       </div>
     </div>
   );

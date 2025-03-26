@@ -138,7 +138,7 @@ const SignUp = () => {
           </p>
           <div data-v-164d3229="" class="d-flex mt-4">
             <span data-v-164d3229="">
-              <button
+              {/* <button
                 data-v-164d3229=""
                 type="button"
                 class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text cursor-pointer"
@@ -157,7 +157,7 @@ const SignUp = () => {
                 <span class="v-btn__content" data-no-activator="">
                   Watch Video
                 </span>
-              </button>
+              </button> */}
             </span>
           </div>
         </div>
@@ -195,7 +195,7 @@ const SignUp = () => {
           </p>
           <div data-v-164d3229="" class="d-flex mt-4">
             <span data-v-164d3229="">
-              <button
+              {/* <button
                 data-v-164d3229=""
                 type="button"
                 class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text cursor-pointer"
@@ -203,16 +203,12 @@ const SignUp = () => {
                 <span class="v-btn__overlay"></span>
                 <span class="v-btn__underlay"></span>
                 <span class="v-btn__prepend">
-                  {/* <i
-                    data-v-164d3229=""
-                    class="mdi-map-marker-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-success"
-                    aria-hidden="true"
-                  ></i> */}
+                
                 </span>
                 <span class="v-btn__content" data-no-activator="">
                   LearnMore
                 </span>
-              </button>
+              </button> */}
             </span>
           </div>
         </div>
@@ -249,7 +245,7 @@ const SignUp = () => {
           </p>
           <div data-v-164d3229="" class="d-flex mt-4">
             <span data-v-164d3229="">
-              <button
+              {/* <button
                 data-v-164d3229=""
                 type="button"
                 class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text cursor-pointer"
@@ -257,16 +253,12 @@ const SignUp = () => {
                 <span class="v-btn__overlay"></span>
                 <span class="v-btn__underlay"></span>
                 <span class="v-btn__prepend">
-                  {/* <i
-                    data-v-164d3229=""
-                    class="mdi-map-marker-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-success"
-                    aria-hidden="true"
-                  ></i> */}
+                 
                 </span>
                 <span class="v-btn__content" data-no-activator="">
                   LearnMore
                 </span>
-              </button>
+              </button> */}
             </span>
           </div>
         </div>

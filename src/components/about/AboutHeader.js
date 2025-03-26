@@ -119,7 +119,7 @@ const AboutHeader = () => {
               <span class="v-btn__overlay"></span>
               <span class="v-btn__underlay"></span>
 
-              <span class="v-btn__content" data-no-activator="">
+              {/* <span class="v-btn__content" data-no-activator="">
                 <i
                   data-v-34310377=""
                   class="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
@@ -127,7 +127,7 @@ const AboutHeader = () => {
                   alt="weelchair"
                   style={{fontSize: "30px", height: "30px", width: "30px"}}
                 ></i>
-              </span>
+              </span> */}
             </button>
             <i
               data-v-34310377=""

@@ -133,13 +133,13 @@ const NavBar = () => {
               <span className="v-btn__overlay"></span>
               <span className="v-btn__underlay"></span>
 
-              <span className="v-btn__content" data-no-activator="">
+              {/* <span className="v-btn__content" data-no-activator="">
                 <i
                   data-v-0cb5a6fb=""
                   className="mdi-web mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default"
                   aria-hidden="true"
                 ></i>
-              </span>
+              </span> */}
             </button>
           </div>
         </div>
@@ -262,7 +262,7 @@ const NavBar = () => {
               <span className="v-btn__underlay"></span>
 
               <span className="v-btn__content" data-no-activator="">
-                Login
+                Explore
               </span>
             </button>
           </div>
@@ -510,11 +510,11 @@ const NavBar = () => {
                 data-uw-rm-brl="PR"
                 data-uw-original-href="https://uaepass.ae/#"
               >
-                <i
+                {/* <i
                   data-v-6ca6b6e6=""
                   className="mdi-web mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
                   aria-hidden="true"
-                ></i>{" "}
+                ></i>{" "} */}
                 Language
               </a>
             </div>

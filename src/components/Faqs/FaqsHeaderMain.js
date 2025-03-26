@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 const FaqsHeaderMain = () => {
@@ -13,30 +12,39 @@ const FaqsHeaderMain = () => {
   // List of FAQ items
   const faqItems = [
     {
-      question: "What is UAE PASS?",
+      question: "What is OnePass and how does it work?",
       answer:
-        "UAE PASS is a national digital identity and signature solution that allows you to access various government services online.",
+        "OnePass is a secure, all-in-one digital identity and financial management platform designed to empower individuals and businesses with seamless identity verification, encrypted document storage, AI-powered credit scoring, and financial tools. Through OnePass, users can verify their government-issued IDs, passports, or business registration documents, store sensitive information securely, and share their credentials with trusted financial institutions via QR codes. Additionally, OnePass provides AI-driven credit scoring and smart budgeting tools, enabling users to manage loans, expenses, and financial decisions with confidence. The platform is fully compliant with regulatory standards, ensuring maximum security and trust in every transaction.",
     },
     {
-      question: "What do I need to do to register for UAE PASS?",
+      question: "How secure is OnePass, and how does it protect my data?",
       answer:
-        "To register for UAE PASS, you need to download the UAE PASS app, provide your Emirates ID, and follow the registration steps.",
+        "OnePass employs bank-level security measures to safeguard user data, ensuring compliance with international financial regulations. All stored information is protected with AES-256 encryption, the same standard used by global financial institutions and military-grade systems. Our platform also features multi-factor authentication (MFA), incorporating biometric verification and PIN-based access for enhanced security. To further protect user information, OnePass operates on an ISO 27001-certified cloud infrastructure, ensuring that all data is stored in a secure, regulated environment. Additionally, we partner with banks, financial institutions, and regulators to maintain the highest security and compliance standards, offering users a trusted digital identity and financial hub.",
     },
     {
-      question: "How can I change my mobile number?",
+      question:
+        "What are the benefits of using OnePass for businesses and SMEs?",
       answer:
-        "You can change your mobile number by logging into your UAE PASS account and updating your contact information in the settings.",
+        "OnePass offers businesses, including small and medium enterprises (SMEs), a streamlined approach to digital identity verification and financial management. Companies can verify their business identities instantly, store and share important documents securely in an encrypted vault, and access AI-powered business credit scores for financial decision-making. OnePass also integrates with financial institutions and lenders, enabling SMEs to access tailored financial services, including business loans and credit analytics. Furthermore, enterprise users can leverage custom API integrations, regulatory compliance dashboards, and institutional loan insights to optimize their operations while ensuring compliance with industry standards.",
     },
     {
-      question: "If I forgot my UAE PASS PIN code, what should I do?",
+      question:
+        "How does OnePass help with credit scoring and financial management?",
       answer:
-        "If you forgot your UAE PASS PIN code, you can reset it by following the 'Forgot PIN' process in the UAE PASS app.",
+        "OnePass provides an AI-driven credit scoring model that evaluates both personal and business creditworthiness using real-time financial insights and regulatory-approved methodologies. Users can monitor their credit scores, receive automated updates, and gain actionable insights into improving their financial standing. Additionally, OnePass includes smart budgeting tools that track expenses, provide savings recommendations, and help users manage loans efficiently. By partnering with trusted financial institutions, the platform ensures that users can access reliable lending options while remaining compliant with financial laws and regulations.",
     },
+    {
+      question:
+        "Can I use OnePass to share my digital identity with banks and financial institutions?",
+      answer:
+        "Yes, OnePass allows users to securely share their verified identity credentials with banks, lenders, and other financial institutions through a QR-based sharing system. This feature enables instant verification, reducing the time and effort required for KYC (Know Your Customer) and AML (Anti-Money Laundering) compliance processes. Businesses can also leverage OnePass to register and verify their company credentials, ensuring seamless interactions with regulatory bodies and financial service providers. With time-limited document sharing, users can control access to their sensitive information while maintaining the highest security standards.",
+    },
+   
   ];
 
   return (
     <>
-      {/* <div
+      <div
         data-v-de238826=""
         className="v-sheet v-theme--uaepassDefaultTheme"
         style={{ maxWidth: "1280px", width: "100%" }}
@@ -125,7 +133,9 @@ const FaqsHeaderMain = () => {
                               data-v-6807ea87=""
                               className="v-expansion-panel-text"
                             >
-                              {item.answer}
+                              <div class="v-expansion-panel-text__wrapper">
+                                <div data-v-6807ea87>{item.answer}</div>
+                              </div>
                             </div>
                           )}
                         </div>
@@ -133,7 +143,7 @@ const FaqsHeaderMain = () => {
                     </div>
 
                     <div className="v-infinite-scroll__side">
-                      <button
+                      {/* <button
                         data-v-6807ea87=""
                         type="button"
                         className="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-outlined mt-sm-12 mt-4"
@@ -144,240 +154,7 @@ const FaqsHeaderMain = () => {
                         <span className="v-btn__content" data-no-activator="">
                           Load more
                         </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-      </div> */}
-
-      <div
-        data-v-de238826=""
-        class="v-sheet v-theme--uaepassDefaultTheme"
-        style={{ maxWidth: "1280px", width: "100%" }}
-      >
-        <main
-          data-v-de238826=""
-          class="v-main"
-          style={{
-            "--v-layout-left": "0px",
-            "--v-layout-right": "0px",
-            "--v-layout-top": "0px",
-            "--v-layout-bottom": "0px",
-          }}
-        >
-          <div data-v-9aedc818="" class="public__page-container">
-            <div
-              data-v-9aedc818=""
-              class="faq__header pt-sm-16 pt-6 pb-sm-13 pb-6"
-            >
-              <div data-v-9aedc818="">
-                <p
-                  data-v-831627a3=""
-                  class="text-color-secondary-secondary font-weight-600 text-body-2 text-uppercase"
-                >
-                  FAQs
-                </p>
-                <h1
-                  data-v-a2da30b3=""
-                  class="text-color-gray-70 font-weight-bold mt-sm-4 mt-1"
-                >
-                  Frequently Asked Questions
-                </h1>
-                <p
-                  data-v-ca2ff154=""
-                  class="text-color-gray-50 mt-sm-6 mt-4 header__page-desc"
-                >
-                  Find answers to the most asked questions
-                </p>
-              </div>
-            </div>
-           
-            <div data-v-6807ea87="" data-v-9aedc818="">
-              <div
-                class="v-slide-group v-slide-group--mobile v-tabs v-tabs--horizontal v-tabs--align-tabs-start v-tabs--density-default"
-                tabindex="-1"
-                role="tablist"
-                data-v-6807ea87=""
-              >
-                <div class="v-slide-group__container">
-                  <div class="v-slide-group__content">
-                    <button
-                      data-v-6807ea87=""
-                      type="button"
-                      class="v-btn v-tab-item--selected v-tab--selected v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text v-tab rounded-pill text-color-surface-on-surface-variant tabs__item"
-                      tabindex="0"
-                      role="tab"
-                      aria-selected="true"
-                      value="1"
-                    >
-                      <span class="v-btn__overlay"></span>
-                      <span class="v-btn__underlay"></span>
-
-                      <span class="v-btn__content" data-no-activator="">
-                        Most Popular
-                        <div class="v-tab__slider"></div>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                data-v-6807ea87=""
-                class="v-window v-theme--uaepassDefaultTheme mt-4"
-              >
-                <div class="v-window__container">
-                  <div
-                    data-v-6807ea87=""
-                    class="v-infinite-scroll v-infinite-scroll--vertical v-infinite-scroll--end"
-                  >
-                    <div class="v-infinite-scroll__side"></div>
-
-                    <div
-                      data-v-6807ea87=""
-                      class="v-expansion-panels v-theme--uaepassDefaultTheme v-expansion-panels--variant-default"
-                    >
-                      {/* ACCORDION-1 */}
-                      <div
-                        data-v-6807ea87=""
-                        class="v-expansion-panel v-expansion-panel--active tabs__expansion-panel mb-sm-4 mb-1"
-                      >
-                        <div class="v-expansion-panel__shadow"></div>
-
-                        <button
-                          data-v-6807ea87=""
-                          class="v-expansion-panel-title v-expansion-panel-title--active"
-                          type="button"
-                          aria-expanded="true"
-                        >
-                          <span class="v-expansion-panel-title__overlay"></span>
-                          <div data-v-6807ea87="">
-                            What is OnePass, and how does it work?
-                          </div>
-                          <span class="v-expansion-panel-title__icon">
-                            <i
-                              class="mdi-chevron-up mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                        </button>
-                        <div
-                          data-v-6807ea87=""
-                          class="v-expansion-panel-text"
-                          style={{}}
-                        >
-                          <div class="v-expansion-panel-text__wrapper">
-                            <div data-v-6807ea87="">
-                              OnePass is a secure digital identity and financial
-                              management platform that allows users to verify
-                              their identity, store and share documents
-                              securely, access AI-powered credit scores, and
-                              manage loans and budgets—all while complying with
-                              global security and regulatory standards.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* ACCORDION-1 */}
-                      {/* ACCORDION-2 */}
-                      <div
-                        data-v-6807ea87=""
-                        class="v-expansion-panel v-expansion-panel--active tabs__expansion-panel mb-sm-4 mb-1"
-                      >
-                        <div class="v-expansion-panel__shadow"></div>
-
-                        <button
-                          data-v-6807ea87=""
-                          class="v-expansion-panel-title v-expansion-panel-title--active"
-                          type="button"
-                          aria-expanded="true"
-                        >
-                          <span class="v-expansion-panel-title__overlay"></span>
-                          <div data-v-6807ea87="">Is OnePass secure?</div>
-                          <span class="v-expansion-panel-title__icon">
-                            <i
-                              class="mdi-chevron-up mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                        </button>
-                        <div
-                          data-v-6807ea87=""
-                          class="v-expansion-panel-text"
-                          style={{}}
-                        >
-                          <div class="v-expansion-panel-text__wrapper">
-                            <div data-v-6807ea87="">
-                              Yes, OnePass meets the highest financial security
-                              standards, including end-to-end encryption,
-                              biometric authentication, and compliance with
-                              global data protection laws to ensure your
-                              information remains safe.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* ACCORDION-2 */}
-                      {/* ACCORDION-3 */}
-                      <div
-                        data-v-6807ea87=""
-                        class="v-expansion-panel v-expansion-panel--active tabs__expansion-panel mb-sm-4 mb-1"
-                      >
-                        <div class="v-expansion-panel__shadow"></div>
-
-                        <button
-                          data-v-6807ea87=""
-                          class="v-expansion-panel-title v-expansion-panel-title--active"
-                          type="button"
-                          aria-expanded="true"
-                        >
-                          <span class="v-expansion-panel-title__overlay"></span>
-                          <div data-v-6807ea87="">Who can use OnePass?</div>
-                          <span class="v-expansion-panel-title__icon">
-                            <i
-                              class="mdi-chevron-up mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                        </button>
-                        <div
-                          data-v-6807ea87=""
-                          class="v-expansion-panel-text"
-                          style={{}}
-                        >
-                          <div class="v-expansion-panel-text__wrapper">
-                            <div data-v-6807ea87="">
-                              OnePass is designed for individuals, businesses,
-                              and financial institutions looking for secure
-                              identity verification, credit scoring, and
-                              financial management tools. Whether you're an
-                              individual seeking secure authentication or a
-                              business needing regulatory-compliant solutions,
-                              OnePass has you covered.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* ACCORDION-3 */}
-                    </div>
-
-                    <div class="v-infinite-scroll__side">
-                      <button
-                        data-v-6807ea87=""
-                        type="button"
-                        class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-outlined mt-sm-12 mt-4"
-                      >
-                        <span class="v-btn__overlay"></span>
-                        <span class="v-btn__underlay"></span>
-
-                        <span class="v-btn__content" data-no-activator="">
-                          Load more
-                        </span>
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>
@@ -386,11 +163,10 @@ const FaqsHeaderMain = () => {
           </div>
         </main>
       </div>
+
+    
     </>
   );
 };
 
 export default FaqsHeaderMain;
-
-
-

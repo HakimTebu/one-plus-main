@@ -44,7 +44,7 @@ const Login = () => {
             Identity.
           </p>
           <div data-v-5d0ad5db="" class="d-flex flex-wrap">
-            <button
+            {/* <button
               data-v-5d0ad5db=""
               type="button"
               class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-sm-4 me-2 mt-5 font-weight-600 d-flex text-color-on-primary bg-color-primary-0 cursor-pointer button-color-change"
@@ -94,7 +94,7 @@ const Login = () => {
                   Watch Video
                 </span>
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
         <div
@@ -160,7 +160,7 @@ const Login = () => {
             class="v-sheet v-theme--uaepassDefaultTheme d-flex flex-wrap mt-5"
             style={{ backgroundColor: "#ebf1fe" }}
           >
-            <button
+            {/* <button
               data-v-5d0ad5db=""
               type="button"
               class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 d-flex button-color-change"
@@ -170,13 +170,10 @@ const Login = () => {
               <span class="v-btn__underlay"></span>
 
               <span class="v-btn__content" data-no-activator="">
-                {/* <i
-                  class="uaepass-pencil-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default text-white me-2"
-                  aria-hidden="true"
-                ></i> */}
+                
                 <span class="font-weight-600 letter-spacing-0">Read More</span>
               </span>
-            </button>
+            </button> */}
             <input
               data-v-5bdf237f=""
               type="file"
@@ -187,7 +184,7 @@ const Login = () => {
               data-uw-rm-form="nfx"
               style={{ display: "none" }}
             />
-            <button
+            {/* <button
               data-v-5bdf237f=""
               type="button"
               class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 verify__btn button-color-change"
@@ -203,7 +200,7 @@ const Login = () => {
                   Explore Options
                 </span>
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
         <div
@@ -267,7 +264,7 @@ const Login = () => {
             Learn more about how Credit Scoring empowers you.
           </p>
           <div data-v-5d0ad5db="" class="d-flex flex-wrap">
-            <button
+            {/* <button
               data-v-5d0ad5db=""
               type="button"
               class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-sm-4 me-2 mt-5 font-weight-600 d-flex text-color-on-primary bg-color-primary-0 cursor-pointer button-color-change"
@@ -292,8 +289,8 @@ const Login = () => {
                   Explore Services
                 </span>
               </span>
-            </button>
-            <button
+            </button> */}
+            {/* <button
               data-v-5d0ad5db=""
               type="button"
               class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text mt-5 font-weight-600 d-flex text-color-primary-60 cursor-pointer"
@@ -317,7 +314,7 @@ const Login = () => {
                   Watch Video
                 </span>
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
         <div
@@ -404,7 +401,7 @@ const Login = () => {
             Learn more about how Wallet simplifies your finances.
           </p>
           <div data-v-5d0ad5db="" class="d-flex flex-wrap">
-            <button
+            {/* <button
               data-v-5d0ad5db=""
               type="button"
               class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-sm-4 me-2 mt-5 font-weight-600 d-flex text-color-on-primary bg-color-primary-0 cursor-pointer button-color-change"
@@ -454,7 +451,7 @@ const Login = () => {
                   Watch Video
                 </span>
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

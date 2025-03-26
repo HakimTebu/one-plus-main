@@ -100,7 +100,7 @@ const AboutNav = () => {
               <span class="v-btn__overlay"></span>
               <span class="v-btn__underlay"></span>
 
-              <span class="v-btn__content" data-no-activator="">
+              {/* <span class="v-btn__content" data-no-activator="">
                 <i
                   data-v-0cb5a6fb=""
                   class="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
@@ -108,7 +108,7 @@ const AboutNav = () => {
                   alt="weelchair"
                   style={{ fontSize: "30px", height: "30px", width: "30px" }}
                 ></i>
-              </span>
+              </span> */}
             </button>
 
             <button
