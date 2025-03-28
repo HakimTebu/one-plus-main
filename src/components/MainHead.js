@@ -217,7 +217,7 @@ const MainHead = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742905627/qr-code_bg0qlz_fquiz1.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1743020056/apple-icon_zsthkm.png"
               alt="qr code image"
               style={{}}
               data-uw-rm-alt-original="qr code image"

@@ -43,59 +43,7 @@ const Login = () => {
             Learn more about the services you can access through Digital
             Identity.
           </p>
-          <div data-v-5d0ad5db="" class="d-flex flex-wrap">
-            {/* <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-sm-4 me-2 mt-5 font-weight-600 d-flex text-color-on-primary bg-color-primary-0 cursor-pointer button-color-change"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <i
-                  data-v-5d0ad5db=""
-                  class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
-                  aria-hidden="true"
-                  style={{
-                    color: "rgb(255, 255, 255)",
-                    caretColor: "rgb(255, 255, 255)",
-                  }}
-                ></i>
-                <span
-                  data-v-5d0ad5db=""
-                  class="letter-spacing-0 links-new-white"
-                >
-                  Explore Our Partners
-                </span>
-              </span>
-            </button>
-            <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text mt-5 font-weight-600 d-flex text-color-primary-60 cursor-pointer"
-              aria-haspopup="dialog"
-              aria-expanded="false"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <i
-                  data-v-5d0ad5db=""
-                  class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
-                  aria-hidden="true"
-                  style={{
-                    color: "rgb(70 64 255)",
-                    caretColor: "rgb(17, 165, 111)",
-                  }}
-                ></i>
-                <span data-v-5d0ad5db="" class="letter-spacing-0">
-                  Watch Video
-                </span>
-              </span>
-            </button> */}
-          </div>
+          <div data-v-5d0ad5db="" class="d-flex flex-wrap"></div>
         </div>
         <div
           data-v-5d0ad5db=""
@@ -113,7 +61,7 @@ const Login = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742640903/DID_bgtlxh.svg"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1743181484/DID_prttxh.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -160,20 +108,6 @@ const Login = () => {
             class="v-sheet v-theme--uaepassDefaultTheme d-flex flex-wrap mt-5"
             style={{ backgroundColor: "#ebf1fe" }}
           >
-            {/* <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 d-flex button-color-change"
-              data-test="sign-button"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                
-                <span class="font-weight-600 letter-spacing-0">Read More</span>
-              </span>
-            </button> */}
             <input
               data-v-5bdf237f=""
               type="file"
@@ -184,23 +118,6 @@ const Login = () => {
               data-uw-rm-form="nfx"
               style={{ display: "none" }}
             />
-            {/* <button
-              data-v-5bdf237f=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-lg-4 me-2 mt-sm-0 mt-2 verify__btn button-color-change"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <span
-                  data-v-5bdf237f=""
-                  class="font-weight-600 letter-spacing-0"
-                >
-                  Explore Options
-                </span>
-              </span>
-            </button> */}
           </div>
         </div>
         <div
@@ -219,7 +136,7 @@ const Login = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566462/Digital-identity_pzveh9.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1743181484/Vault_d8gdib.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -263,59 +180,7 @@ const Login = () => {
           >
             Learn more about how Credit Scoring empowers you.
           </p>
-          <div data-v-5d0ad5db="" class="d-flex flex-wrap">
-            {/* <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-sm-4 me-2 mt-5 font-weight-600 d-flex text-color-on-primary bg-color-primary-0 cursor-pointer button-color-change"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <i
-                  data-v-5d0ad5db=""
-                  class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
-                  aria-hidden="true"
-                  style={{
-                    color: "rgb(255, 255, 255)",
-                    caretColor: "rgb(255, 255, 255)",
-                  }}
-                ></i>
-                <span
-                  data-v-5d0ad5db=""
-                  class="letter-spacing-0 links-new-white"
-                >
-                  Explore Services
-                </span>
-              </span>
-            </button> */}
-            {/* <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text mt-5 font-weight-600 d-flex text-color-primary-60 cursor-pointer"
-              aria-haspopup="dialog"
-              aria-expanded="false"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <i
-                  data-v-5d0ad5db=""
-                  class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
-                  aria-hidden="true"
-                  style={{
-                    color: "rgb(49 34 255)",
-                    caretColor: "rgb(17, 165, 111)",
-                  }}
-                ></i>
-                <span data-v-5d0ad5db="" class="letter-spacing-0">
-                  Watch Video
-                </span>
-              </span>
-            </button> */}
-          </div>
+          <div data-v-5d0ad5db="" class="d-flex flex-wrap"></div>
         </div>
         <div
           data-v-5d0ad5db=""
@@ -333,7 +198,7 @@ const Login = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566462/Credit-scoring_byqlvf.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1743181484/Loan_Payment_hmtdd9.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -364,7 +229,7 @@ const Login = () => {
             ></div>
             <img
               class="v-img__img v-img__img--contain"
-              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742566463/Wallet-solution_ibfuah.png"
+              src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1743181484/Wallent_uwglwi.png"
               alt="[object Object] image"
               style={{}}
               data-uw-rm-alt-original="[object Object] image"
@@ -400,59 +265,7 @@ const Login = () => {
           >
             Learn more about how Wallet simplifies your finances.
           </p>
-          <div data-v-5d0ad5db="" class="d-flex flex-wrap">
-            {/* <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal me-sm-4 me-2 mt-5 font-weight-600 d-flex text-color-on-primary bg-color-primary-0 cursor-pointer button-color-change"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <i
-                  data-v-5d0ad5db=""
-                  class="mdi-compass-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
-                  aria-hidden="true"
-                  style={{
-                    color: "rgb(255, 255, 255)",
-                    caretColor: "rgb(255, 255, 255)",
-                  }}
-                ></i>
-                <span
-                  data-v-5d0ad5db=""
-                  class="letter-spacing-0 links-new-white"
-                >
-                  Explore Services
-                </span>
-              </span>
-            </button>
-            <button
-              data-v-5d0ad5db=""
-              type="button"
-              class="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-text mt-5 font-weight-600 d-flex text-color-primary-60 cursor-pointer"
-              aria-haspopup="dialog"
-              aria-expanded="false"
-            >
-              <span class="v-btn__overlay"></span>
-              <span class="v-btn__underlay"></span>
-
-              <span class="v-btn__content" data-no-activator="">
-                <i
-                  data-v-5d0ad5db=""
-                  class="mdi-play-circle-outline mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default me-2"
-                  aria-hidden="true"
-                  style={{
-                    color: "rgb(17, 165, 111)",
-                    caretColor: "rgb(17, 165, 111)",
-                  }}
-                ></i>
-                <span data-v-5d0ad5db="" class="letter-spacing-0">
-                  Watch Video
-                </span>
-              </span>
-            </button> */}
-          </div>
+          <div data-v-5d0ad5db="" class="d-flex flex-wrap"></div>
         </div>
       </div>
     </div>
