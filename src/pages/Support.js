@@ -3,6 +3,7 @@ import AboutNav from "../components/about/AboutNav";
 import AboutHeader from "../components/about/AboutHeader";
 import Footer from "../components/Footer";
 import SupportHeaderMain from "../components/support/SupportHeaderMain";
+import NavBar from "../components/NavBar";
 
 const Support = () => {
   return (
@@ -15,7 +16,8 @@ const Support = () => {
             class="v-application v-theme--uaepassDefaultTheme v-layout v-layout--full-height v-locale--is-ltr bg-white overflow-x-auto"
           >
             <div class="v-application__wrap">
-              <AboutNav />
+              <NavBar/>
+              {/* <AboutNav /> */}
               <AboutHeader />
               <SupportHeaderMain />
 

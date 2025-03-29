@@ -4,6 +4,7 @@ import AboutHeader from "../components/about/AboutHeader";
 import AboutHeaderMain from "../components/about/AboutHeaderMain";
 import Corp from "../components/about/Corp";
 import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 
 const About = () => {
   return (
@@ -15,7 +16,8 @@ const About = () => {
             class="v-application v-theme--uaepassDefaultTheme v-layout v-layout--full-height v-locale--is-ltr bg-white overflow-x-auto"
           >
             <div class="v-application__wrap">
-              <AboutNav />
+              <NavBar/>
+              {/* <AboutNav /> */}
               <AboutHeader />
               <AboutHeaderMain />
               {/* <Corp /> */}

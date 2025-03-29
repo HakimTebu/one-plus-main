@@ -557,7 +557,7 @@
 }
 
 .tip__image[data-v-5d0ad5db] {
-  height: 591px;
+  /* height: 591px; */
   width: 479px;
 }
 
@@ -574,7 +574,7 @@
 
   .tip__image[data-v-5d0ad5db] {
     /* height: 286px; */
-    width: 286px;
+    width: 359px;
   }
 }
 

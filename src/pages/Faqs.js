@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import AboutNav from "../components/about/AboutNav";
 import AboutHeader from "../components/about/AboutHeader";
 import FaqsHeaderMain from "../components/Faqs/FaqsHeaderMain";
+import NavBar from "../components/NavBar";
 
 const Faqs = () => {
   return (
@@ -14,7 +15,8 @@ const Faqs = () => {
             class="v-application v-theme--uaepassDefaultTheme v-layout v-layout--full-height v-locale--is-ltr bg-white overflow-x-auto"
           >
             <div class="v-application__wrap">
-              <AboutNav />
+              <NavBar/>
+              {/* <AboutNav /> */}
               <AboutHeader />
               <FaqsHeaderMain />
              
