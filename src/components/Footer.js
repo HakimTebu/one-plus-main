@@ -23,10 +23,17 @@ const Footer = () => {
                 data-v-59322d10=""
                 class="mdi-crosshairs-gps mdi v-icon notranslate v-theme--uaepassDefaultTheme text-white"
                 aria-hidden="true"
-                style={{ fontSize: "18px", height: "18px", width: "18px", color: "white !important" }}
+                style={{
+                  fontSize: "18px",
+                  height: "18px",
+                  width: "18px",
+                  color: "white !important",
+                }}
               ></i>
               <p data-v-59322d10="" class="footer__uae ps-2">
-                United States
+                1000 Northwest Street, <br />
+                Brandy Wine, Wilmington, <br />
+                DE 19801, USA
               </p>
             </div>
             <div data-v-59322d10="" class="d-flex mt-3">
@@ -45,7 +52,10 @@ const Footer = () => {
                 data-uw-rm-vglnk=""
                 uw-rm-vague-link-id="tel:600561111$call 600561111"
               >
-                6000 54 1111
+                +1 678 939 0362 (USA) <br />
+                +971 523 577 244 (UAE)
+                <br />
+                +254 722 716 262 (KEN)
               </a>
             </div>
             <div data-v-59322d10="" class="d-flex mt-3">
@@ -77,7 +87,8 @@ const Footer = () => {
           class="d-flex justify-md-space-between flex-md-row flex-column"
         >
           <div data-v-d076b49a="" class="mb-md-0 mb-4 d-flex flex-wrap">
-            <Link to="/about"
+            <Link
+              to="/about"
               data-v-d076b49a=""
               aria-label="About Us"
               class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
@@ -85,7 +96,8 @@ const Footer = () => {
             >
               About
             </Link>
-            <Link to="/faqs"
+            <Link
+              to="/faqs"
               data-v-d076b49a=""
               aria-label="Frequently Asked Questions"
               class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
@@ -93,7 +105,8 @@ const Footer = () => {
             >
               FAQs
             </Link>
-            <Link to="/support"
+            <Link
+              to="/support"
               data-v-d076b49a=""
               aria-label="Ask for support"
               class="footer__link me-lg-12 me-md-8 me-6 cursor-pointer"
@@ -101,9 +114,6 @@ const Footer = () => {
             >
               Support
             </Link>
-          
-            
-           
           </div>
           <p data-v-d076b49a="" class="footer__copyright">
             Copyright © 2025 OnePass All rights reserved.
