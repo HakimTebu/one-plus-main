@@ -46,64 +46,6 @@ const SignUp = () => {
           <p data-v-164d3229="" class="register__desc mt-3">
             Register and verify your identity quickly and securely.
           </p>
-          <div data-v-164d3229="" class="d-flex mt-4">
-            <span data-v-164d3229="">
-              <a
-                data-v-164d3229=""
-                aria-label="navigate to https://itunes.apple.com/ae/app/uae-pass/id1377158818?mt=8"
-                class="cursor-pointer"
-                tabindex="0"
-              >
-                <div
-                  data-v-164d3229=""
-                  class="v-responsive v-img me-2 register__img"
-                  aria-label="action step image"
-                  role="img"
-                >
-                  <div
-                    class="v-responsive__sizer"
-                    style={{ paddingBottom: "30.3754%" }}
-                  ></div>
-                  <img
-                    class="v-img__img v-img__img--contain"
-                    src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/apple-store_rt6bt6.png"
-                    alt="action step image"
-                    style={{}}
-                    data-uw-rm-alt-original="action step image"
-                    data-uw-rm-alt="ALT"
-                  />
-                </div>
-              </a>
-            </span>
-            <span data-v-164d3229="">
-              <a
-                data-v-164d3229=""
-                aria-label="navigate to https://play.google.com/store/apps/details?id=ae.uaepass.mainapp"
-                class="cursor-pointer"
-                tabindex="0"
-              >
-                <div
-                  data-v-164d3229=""
-                  class="v-responsive v-img me-2 register__img"
-                  aria-label="action step image"
-                  role="img"
-                >
-                  <div
-                    class="v-responsive__sizer"
-                    style={{ paddingBottom: "30.4795%" }}
-                  ></div>
-                  <img
-                    class="v-img__img v-img__img--contain"
-                    src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/google-play_l84ox0.png"
-                    alt="action step image"
-                    style={{}}
-                    data-uw-rm-alt-original="action step image"
-                    data-uw-rm-alt="ALT"
-                  />
-                </div>
-              </a>
-            </span>
-          </div>
         </div>
         <div
           data-v-164d3229=""
@@ -263,6 +205,65 @@ const SignUp = () => {
           </div>
         </div>
         {/* END */}
+      </div>
+      {/* APP-STORE-ISONS */}
+      <div data-v-164d3229="" class="d-flex mt-4 justify-icons-center">
+        <span data-v-164d3229="">
+          <a
+            data-v-164d3229=""
+            aria-label="navigate to https://itunes.apple.com/ae/app/uae-pass/id1377158818?mt=8"
+            class="cursor-pointer"
+            tabindex="0"
+          >
+            <div
+              data-v-164d3229=""
+              class="v-responsive v-img me-2 register__img"
+              aria-label="action step image"
+              role="img"
+            >
+              <div
+                class="v-responsive__sizer"
+                style={{ paddingBottom: "30.3754%" }}
+              ></div>
+              <img
+                class="v-img__img v-img__img--contain"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/apple-store_rt6bt6.png"
+                alt="action step image"
+                style={{}}
+                data-uw-rm-alt-original="action step image"
+                data-uw-rm-alt="ALT"
+              />
+            </div>
+          </a>
+        </span>
+        <span data-v-164d3229="">
+          <a
+            data-v-164d3229=""
+            aria-label="navigate to https://play.google.com/store/apps/details?id=ae.uaepass.mainapp"
+            class="cursor-pointer"
+            tabindex="0"
+          >
+            <div
+              data-v-164d3229=""
+              class="v-responsive v-img me-2 register__img"
+              aria-label="action step image"
+              role="img"
+            >
+              <div
+                class="v-responsive__sizer"
+                style={{ paddingBottom: "30.4795%" }}
+              ></div>
+              <img
+                class="v-img__img v-img__img--contain"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742473087/google-play_l84ox0.png"
+                alt="action step image"
+                style={{}}
+                data-uw-rm-alt-original="action step image"
+                data-uw-rm-alt="ALT"
+              />
+            </div>
+          </a>
+        </span>
       </div>
     </div>
   );

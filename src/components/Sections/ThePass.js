@@ -1,5 +1,6 @@
 import React from 'react'
 import "@mdi/font/css/materialdesignicons.min.css";
+import ScrollLink from './ScrollLink';
 
 
 const ThePass = () => {
@@ -50,7 +51,8 @@ const ThePass = () => {
                   Secure ID verification and QR sharing for individuals and
                   SMEs.
                 </p>
-                <a
+                <ScrollLink
+                  to="digitalIdentity"
                   data-v-99e549d0=""
                   class="mt-4 text-subtitle-1 font-weight-medium text-decoration-none text-color-primary-60 cursor-pointer"
                   tabindex="0"
@@ -62,7 +64,7 @@ const ThePass = () => {
                     aria-hidden="true"
                     style={{ fontSize: "20px", height: "20px", width: "20px" }}
                   ></i>
-                </a>
+                </ScrollLink>
               </div>
             </div>
             <div
@@ -96,7 +98,8 @@ const ThePass = () => {
                   Securely store, share, and set expirations for sensitive,
                   compliant documents.
                 </p>
-                <a
+                <ScrollLink
+                  to="secureDocuments"
                   data-v-99e549d0=""
                   class="mt-4 text-subtitle-1 font-weight-medium text-decoration-none text-color-primary-60 cursor-pointer"
                   tabindex="0"
@@ -108,9 +111,11 @@ const ThePass = () => {
                     aria-hidden="true"
                     style={{ fontSize: "20px", height: "20px", width: "20px" }}
                   ></i>
-                </a>
+                </ScrollLink>
               </div>
             </div>
+
+            {/* management */}
             <div
               data-v-99e549d0=""
               data-v-0f365038=""
@@ -142,7 +147,8 @@ const ThePass = () => {
                   AI-driven personal and business credit scores with real-time
                   updates and regulatory compliance.
                 </p>
-                <a
+                <ScrollLink
+                  to="creditScoring"
                   data-v-99e549d0=""
                   class="mt-4 text-subtitle-1 font-weight-medium text-decoration-none text-color-primary-60 cursor-pointer"
                   tabindex="0"
@@ -154,7 +160,55 @@ const ThePass = () => {
                     aria-hidden="true"
                     style={{ fontSize: "20px", height: "20px", width: "20px" }}
                   ></i>
-                </a>
+                </ScrollLink>
+              </div>
+            </div>
+            {/* switch */}
+            <div
+              data-v-99e549d0=""
+              data-v-0f365038=""
+              class="flex-1 tips__item-container"
+            >
+              <div
+                data-v-99e549d0=""
+                class="d-flex flex-column mt-md-0 mt-10 tips__item"
+              >
+                <i
+                  data-v-99e549d0=""
+                  class="mdi mdi-file-document-outline v-icon notranslate v-theme--uaepassDefaultTheme"
+                  aria-hidden="true"
+                  style={{
+                    fontSize: "40px",
+                    height: "40px",
+                    width: "40px",
+                    color: "rgb(48 34 253)",
+                    caretColor: "rgb(47 34 255)",
+                  }}
+                ></i>
+                <p
+                  data-v-99e549d0=""
+                  class="text-sm-h5 text-h6 font-weight-600 text-color-gray-70 mt-5"
+                >
+                  Loan Management
+                </p>
+                <p data-v-99e549d0="" class="tips__desc mt-3">
+                  The Wallet for Loan Management & Budgeting allows you to
+                  apply, track, and repay loans from trusted financial partners.
+                </p>
+                <ScrollLink
+                  to="loanManagement"
+                  data-v-99e549d0=""
+                  class="mt-4 text-subtitle-1 font-weight-medium text-decoration-none text-color-primary-60 cursor-pointer"
+                  tabindex="0"
+                >
+                  Learn More{" "}
+                  <i
+                    data-v-99e549d0=""
+                    class="mdi-arrow-right-thin mdi v-icon notranslate v-theme--uaepassDefaultTheme"
+                    aria-hidden="true"
+                    style={{ fontSize: "20px", height: "20px", width: "20px" }}
+                  ></i>
+                </ScrollLink>
               </div>
             </div>
           </div>

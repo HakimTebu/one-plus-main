@@ -261,3 +261,127 @@
 
 
 // "build": "react-scripts build"
+
+
+<div
+  data-v-34310377=""
+  data-v-523525b0=""
+  className="d-flex justify-space-between align-center"
+>
+  {/* LOGO-STARTS-HERE */}
+  <Link
+    to="/"
+    data-v-34310377=""
+    href="/"
+    aria-label="Home"
+    data-uw-rm-brl="PR"
+    data-uw-original-href="https://uaepass.ae/"
+  >
+    <div
+      data-v-34310377=""
+      className="v-responsive v-img white-logo"
+      aria-label="UAE Pass logo"
+      role="img"
+      style={{ height: "36px", width: "126px" }}
+    >
+      <div
+        className="v-responsive__sizer"
+        style={{ paddingBottom: "29.4118%" }}
+      ></div>
+      {/* LOGO HERE */}
+      <img
+        className="v-img__img v-img__img--contain"
+        src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742561077/logo_mwu0uv.svg"
+        alt="UAE Pass logo"
+        style={{}}
+        data-uw-rm-alt-original="UAE Pass logo"
+        role="img"
+        data-uw-rm-alt="ALT"
+      />
+    </div>
+  </Link>
+  {/* LOGO-ENDS-HERE */}
+
+  {/* MAKESHIFT-START */}
+  <div className="makeshift">
+    <Link
+      to="/about"
+      data-v-34310377=""
+      class="makeshift-text cursor-pointer"
+      aria-label="Home"
+      custom-title="Home"
+      tabindex="0"
+    >
+      About
+    </Link>
+    <Link
+      to="/support"
+      data-v-34310377=""
+      class="makeshift-text cursor-pointer makeshift-text"
+      aria-label="See our partners"
+      custom-title="Partners"
+      tabindex="0"
+    >
+      Support
+    </Link>
+    <Link
+      to="/faqs"
+      data-v-34310377=""
+      class="makeshift-text cursor-pointer"
+      aria-label="See Kiosk Locations"
+      custom-title="Kiosk Locations"
+      tabindex="0"
+    >
+      Faqs{" "}
+    </Link>
+  </div>
+  {/* MAKESHIFT-END */}
+
+  {/* NAV-CENTER-START */}
+  <div data-v-34310377="" className="d-flex align-center">
+    <button
+      data-v-34310377=""
+      type="button"
+      className="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme v-btn--density-compact v-btn--variant-elevated mx-1 uaepass-accessibility"
+      id="uaepass-accessibility-trigger"
+      data-test="accessibility-btn"
+      style={{
+        backgroundColor: "rgb(64, 73, 67)",
+        color: "rgb(255, 255, 255)",
+        caretColor: "rgb(255, 255, 255)",
+        width: "30px",
+        height: "30px",
+        display: "none",
+      }}
+      aria-label="button"
+      data-uw-rm-empty-ctrl=""
+    >
+      <span className="v-btn__overlay"></span>
+      <span className="v-btn__underlay"></span>
+
+      <span className="v-btn__content" data-no-activator="">
+        <i
+          data-v-34310377=""
+          className="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
+          aria-hidden="true"
+          alt="weelchair"
+          style={{ fontSize: "30px", height: "30px", width: "30px" }}
+        ></i>
+      </span>
+    </button>
+
+    <button
+      data-v-34310377=""
+      type="button"
+      className="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal d-none d-sm-flex"
+    >
+      <span className="v-btn__overlay"></span>
+      <span className="v-btn__underlay"></span>
+
+      <span className="v-btn__content" data-no-activator="">
+        Explore
+      </span>
+    </button>
+  </div>
+  {/* NAV-CENTER-END */}
+</div>;

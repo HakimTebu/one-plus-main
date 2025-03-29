@@ -23,8 +23,43 @@ const NavBar = () => {
         <div
           data-v-0cb5a6fb=""
           data-v-523525b0=""
-          className="d-none d-sm-flex justify-space-between transparent"
+          className="d-none d-sm-flex justify-space-between transparent nav-align"
         >
+          {/* LOGO-STARTS-HERE */}
+          <Link
+            to="/"
+            data-v-34310377=""
+            href="/"
+            aria-label="Home"
+            data-uw-rm-brl="PR"
+            data-uw-original-href="https://uaepass.ae/"
+          >
+            <div
+              data-v-34310377=""
+              className="v-responsive v-img white-logo"
+              aria-label="UAE Pass logo"
+              role="img"
+              style={{ height: "45px", width: "126px" }}
+            >
+              <div
+                className="v-responsive__sizer"
+                style={{ paddingBottom: "29.4118%" }}
+              ></div>
+              {/* LOGO HERE */}
+              <img
+                className="v-img__img v-img__img--contain"
+                src="https://res.cloudinary.com/dtxqmyvv2/image/upload/v1742561077/logo_mwu0uv.svg"
+                alt="UAE Pass logo"
+                style={{}}
+                data-uw-rm-alt-original="UAE Pass logo"
+                role="img"
+                data-uw-rm-alt="ALT"
+              />
+            </div>
+          </Link>
+          {/* LOGO-ENDS-HERE */}
+
+          {/* UPPER-NAV-LINK-START */}
           <div data-v-0cb5a6fb="" className="d-flex" gap="36">
             <Link
               to="/"
@@ -94,54 +129,7 @@ const NavBar = () => {
               Support
             </Link>
           </div>
-          <div
-            data-v-0cb5a6fb=""
-            className="d-flex justify-space-between align-center"
-          >
-            <button
-              data-v-0cb5a6fb=""
-              type="button"
-              className="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme bg-white v-btn--density-compact v-btn--variant-elevated mx-1 uaepass-accessibility mx-1 uaepass-accessibility"
-              id="uaepass-accessibility-trigger"
-              data-testid="accessibility-btn"
-              style={{ width: "30px", height: "30px" }}
-              aria-label="button"
-              data-uw-rm-empty-ctrl=""
-            >
-              <span className="v-btn__overlay"></span>
-              <span className="v-btn__underlay"></span>
-
-              <span className="v-btn__content" data-no-activator="">
-                <i
-                  data-v-0cb5a6fb=""
-                  className="mdi mdi-wheelchair-accessibility v-icon notranslate v-theme--uaepassDefaultTheme"
-                  aria-hidden="true"
-                  alt="weelchair"
-                  style={{ fontSize: "30px", height: "30px", width: "30px" }}
-                ></i>
-              </span>
-            </button>
-            <button
-              data-v-0cb5a6fb=""
-              type="button"
-              className="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme bg-white v-btn--density-compact v-btn--variant-elevated"
-              data-testid="lang-btn"
-              text-content="earth"
-              name="earth"
-              aria-label="change language"
-            >
-              <span className="v-btn__overlay"></span>
-              <span className="v-btn__underlay"></span>
-
-              {/* <span className="v-btn__content" data-no-activator="">
-                <i
-                  data-v-0cb5a6fb=""
-                  className="mdi-web mdi v-icon notranslate v-theme--uaepassDefaultTheme v-icon--size-default"
-                  aria-hidden="true"
-                ></i>
-              </span> */}
-            </button>
-          </div>
+          {/* UPPER-NAV-LINK-END */}
         </div>
         <hr
           data-v-523525b0=""
@@ -154,9 +142,11 @@ const NavBar = () => {
           data-v-523525b0=""
           className="d-flex justify-space-between align-center"
         >
+          {/* LOGO-STARTS-HERE */}
           <Link
             to="/"
             data-v-34310377=""
+            className="makeshift-logo"
             href="/"
             aria-label="Home"
             data-uw-rm-brl="PR"
@@ -185,8 +175,9 @@ const NavBar = () => {
               />
             </div>
           </Link>
+          {/* LOGO-ENDS-HERE */}
 
-          {/* MAKESHIFT */}
+          {/* MAKESHIFT-START */}
           <div className="makeshift">
             <Link
               to="/about"
@@ -219,53 +210,7 @@ const NavBar = () => {
               Faqs{" "}
             </Link>
           </div>
-
-          {/* MAKESHIFT */}
-          <div data-v-34310377="" className="d-flex align-center">
-            <button
-              data-v-34310377=""
-              type="button"
-              className="v-btn v-btn--elevated v-btn--icon v-theme--uaepassDefaultTheme v-btn--density-compact v-btn--variant-elevated mx-1 uaepass-accessibility"
-              id="uaepass-accessibility-trigger"
-              data-test="accessibility-btn"
-              style={{
-                backgroundColor: "rgb(64, 73, 67)",
-                color: "rgb(255, 255, 255)",
-                caretColor: "rgb(255, 255, 255)",
-                width: "30px",
-                height: "30px",
-                display: "none",
-              }}
-              aria-label="button"
-              data-uw-rm-empty-ctrl=""
-            >
-              <span className="v-btn__overlay"></span>
-              <span className="v-btn__underlay"></span>
-
-              <span className="v-btn__content" data-no-activator="">
-                <i
-                  data-v-34310377=""
-                  className="uaepass-accessiblity mdi v-icon notranslate v-theme--uaepassDefaultTheme"
-                  aria-hidden="true"
-                  alt="weelchair"
-                  style={{ fontSize: "30px", height: "30px", width: "30px" }}
-                ></i>
-              </span>
-            </button>
-
-            <button
-              data-v-34310377=""
-              type="button"
-              className="v-btn v-theme--uaepassDefaultTheme v-btn--density-default v-btn--size-default v-btn--variant-tonal d-none d-sm-flex"
-            >
-              <span className="v-btn__overlay"></span>
-              <span className="v-btn__underlay"></span>
-
-              <span className="v-btn__content" data-no-activator="">
-                Explore
-              </span>
-            </button>
-          </div>
+          {/* MAKESHIFT-END */}
         </div>
       </div>
 
